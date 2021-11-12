@@ -22,5 +22,23 @@ class InterfaceController: WKInterfaceController {
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
     }
+    
+    
+    //First screen button taps
+    @IBAction func PortraitButtonTapped(){
+        self.pushController(withName: "Portrait", context: nil)
+    }
+    @IBAction func LandscapeButtonTapped(){
+        self.pushController(withName: "Landscape", context: nil)
+    }
+    @IBAction func StreetButtonTapped(){
+        self.pushController(withName: "Street", context: nil)
+    }
+    @IBAction func NatureButtonTapped(){
+        self.pushController(withName: "Nature", context: nil)
+    }
+    
+    
+    
 
 }

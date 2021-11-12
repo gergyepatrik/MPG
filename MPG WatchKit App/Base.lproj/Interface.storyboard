@@ -1,16 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14256" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19455" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch40"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14243"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14219"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19454"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MPG_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="Portrait" id="S4M-rV-ZND">
+                            <connections>
+                                <action selector="PortraitButtonTapped" destination="AgC-eL-Hgc" id="hso-QQ-FKW"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Landscape" id="b0r-J2-FxH">
+                            <connections>
+                                <action selector="LandscapeButtonTapped" destination="AgC-eL-Hgc" id="4Th-4Q-vwm"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Street" id="4Be-iA-FHx">
+                            <connections>
+                                <action selector="StreetButtonTapped" destination="AgC-eL-Hgc" id="96q-iP-L4X"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Nature" id="2XX-Im-NxN">
+                            <connections>
+                                <action selector="NatureButtonTapped" destination="AgC-eL-Hgc" id="kj5-Ku-GIm"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="135" y="-526"/>
+        </scene>
+        <!--Portrait-->
+        <scene sceneID="MYv-IE-sx2">
+            <objects>
+                <controller identifier="Portrait" id="pOK-zV-njW">
+                    <items>
+                        <label width="136" height="27" alignment="center" text="Portrait" textAlignment="center" id="nkB-uL-J9H"/>
+                        <button width="1" alignment="left" title="Outdoors" id="9Y6-mw-NtG"/>
+                        <button width="1" alignment="left" title="Indoors" id="uie-Wb-fim"/>
+                        <button width="1" alignment="left" title="Studio" id="EXd-s3-BXR"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="133.4814814814815" y="-259.74619289340097"/>
+        </scene>
+        <!--Outdoors-->
+        <scene sceneID="Xy8-y4-W7Y">
+            <objects>
+                <controller identifier="Outdoors" id="1Sy-Ui-q05"/>
+            </objects>
+            <point key="canvasLocation" x="353" y="-260"/>
+        </scene>
+        <!--Indoors-->
+        <scene sceneID="EuY-vg-V5y">
+            <objects>
+                <controller identifier="Indoors" id="ugY-y9-Zp6"/>
+            </objects>
+            <point key="canvasLocation" x="555" y="-261"/>
+        </scene>
+        <!--Studio-->
+        <scene sceneID="pgy-29-bef">
+            <objects>
+                <controller identifier="Studio" id="UB7-CZ-RIs"/>
+            </objects>
+            <point key="canvasLocation" x="753" y="-261"/>
+        </scene>
+        <!--Landscape-->
+        <scene sceneID="3yz-PI-oRQ">
+            <objects>
+                <controller identifier="Landscape" id="Bkw-Ke-KfT">
+                    <items>
+                        <label alignment="left" text="Landscape" id="Ae0-Vu-S4w"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="133" y="11"/>
+        </scene>
+        <!--Street-->
+        <scene sceneID="CTV-PI-Jvq">
+            <objects>
+                <controller identifier="Street" id="BYO-fl-yrE">
+                    <items>
+                        <label alignment="left" text="Street" id="XDQ-p2-ZWf"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="134" y="281"/>
+        </scene>
+        <!--Nature-->
+        <scene sceneID="PEQ-x7-xMv">
+            <objects>
+                <controller identifier="Nature" id="vpV-aw-GFg">
+                    <items>
+                        <label height="19" alignment="left" text="Nature" id="4qG-t8-mlW"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="133" y="548"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -27,21 +119,21 @@
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="220" y="643"/>
+            <point key="canvasLocation" x="133" y="860"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="MPG_WatchKit_App" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="468" y="643"/>
+            <point key="canvasLocation" x="467" y="860"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="Niz-AI-uX2">
             <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="MPG_WatchKit_App" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="468" y="345"/>
+            <point key="canvasLocation" x="467" y="546"/>
         </scene>
     </scenes>
 </document>
