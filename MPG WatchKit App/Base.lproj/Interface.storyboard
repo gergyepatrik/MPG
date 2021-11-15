@@ -42,9 +42,21 @@
                 <controller identifier="Portrait" id="pOK-zV-njW">
                     <items>
                         <label width="136" height="27" alignment="center" text="Portrait" textAlignment="center" id="nkB-uL-J9H"/>
-                        <button width="1" alignment="left" title="Outdoors" id="9Y6-mw-NtG"/>
-                        <button width="1" alignment="left" title="Indoors" id="uie-Wb-fim"/>
-                        <button width="1" alignment="left" title="Studio" id="EXd-s3-BXR"/>
+                        <button width="1" alignment="left" title="Outdoors" id="9Y6-mw-NtG">
+                            <connections>
+                                <segue destination="1Sy-Ui-q05" kind="push" id="IaC-r8-SkQ"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Indoors" id="uie-Wb-fim">
+                            <connections>
+                                <segue destination="ugY-y9-Zp6" kind="push" id="bNn-r9-vcz"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Studio" id="EXd-s3-BXR">
+                            <connections>
+                                <segue destination="UB7-CZ-RIs" kind="push" id="KWY-dI-drn"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>

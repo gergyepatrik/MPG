@@ -19,6 +19,7 @@
 		4D1C3F6A273D404100D08C7D /* MPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C3F69273D404100D08C7D /* MPGTests.swift */; };
 		4D1C3F74273D404100D08C7D /* MPGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C3F73273D404100D08C7D /* MPGUITests.swift */; };
 		4D1C3F76273D404100D08C7D /* MPGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C3F75273D404100D08C7D /* MPGUITestsLaunchTests.swift */; };
+		4D33FD4D27430CBE00736512 /* PortraitInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		4D1C3F6F273D404100D08C7D /* MPGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1C3F73273D404100D08C7D /* MPGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGUITests.swift; sourceTree = "<group>"; };
 		4D1C3F75273D404100D08C7D /* MPGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				4D1C3F55273D403F00D08C7D /* InterfaceController.swift */,
+				4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */,
 				4D1C3F57273D403F00D08C7D /* ExtensionDelegate.swift */,
 				4D1C3F59273D403F00D08C7D /* NotificationController.swift */,
 				4D1C3F5B273D403F00D08C7D /* ComplicationController.swift */,
@@ -375,6 +378,7 @@
 				4D1C3F5A273D403F00D08C7D /* NotificationController.swift in Sources */,
 				4D1C3F5C273D403F00D08C7D /* ComplicationController.swift in Sources */,
 				4D1C3F58273D403F00D08C7D /* ExtensionDelegate.swift in Sources */,
+				4D33FD4D27430CBE00736512 /* PortraitInterfaceController.swift in Sources */,
 				4D1C3F56273D403F00D08C7D /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
