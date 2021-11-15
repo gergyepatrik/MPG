@@ -65,23 +65,35 @@
         <!--Outdoors-->
         <scene sceneID="Xy8-y4-W7Y">
             <objects>
-                <controller identifier="Outdoors" id="1Sy-Ui-q05"/>
+                <controller identifier="Outdoors" id="1Sy-Ui-q05">
+                    <items>
+                        <imageView height="153" alignment="left" image="Rick" contentMode="scaleAspectFit" id="1pp-ba-Hoy"/>
+                    </items>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="353" y="-260"/>
+            <point key="canvasLocation" x="352.59259259259261" y="-260.17766497461929"/>
         </scene>
         <!--Indoors-->
         <scene sceneID="EuY-vg-V5y">
             <objects>
-                <controller identifier="Indoors" id="ugY-y9-Zp6"/>
+                <controller identifier="Indoors" id="ugY-y9-Zp6">
+                    <items>
+                        <imageView height="160" alignment="left" image="Krey" contentMode="scaleAspectFit" id="1ms-CK-P0R"/>
+                    </items>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="555" y="-261"/>
+            <point key="canvasLocation" x="554.91358024691363" y="-261.04060913705581"/>
         </scene>
         <!--Studio-->
         <scene sceneID="pgy-29-bef">
             <objects>
-                <controller identifier="Studio" id="UB7-CZ-RIs"/>
+                <controller identifier="Studio" id="UB7-CZ-RIs">
+                    <items>
+                        <imageView height="174" alignment="left" image="Gachi" contentMode="scaleAspectFit" id="zWg-A8-heT"/>
+                    </items>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="753" y="-261"/>
+            <point key="canvasLocation" x="781" y="-261"/>
         </scene>
         <!--Landscape-->
         <scene sceneID="3yz-PI-oRQ">
@@ -148,4 +160,9 @@
             <point key="canvasLocation" x="467" y="546"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Gachi" width="480" height="360"/>
+        <image name="Krey" width="400" height="400"/>
+        <image name="Rick" width="1200" height="861"/>
+    </resources>
 </document>
