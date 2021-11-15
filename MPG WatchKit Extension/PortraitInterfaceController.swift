@@ -23,15 +23,5 @@ class PortraitInterfaceController: WKInterfaceController {
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
     }
-    
-    
-    //First screen button taps
-    @IBAction func OoutdoorsButtonTapped(){
-        self.pushController(withName: "Outdoors", context: nil)
-    }
-
-    
-    
-    
-
+       
 }
