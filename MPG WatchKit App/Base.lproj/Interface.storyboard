@@ -67,31 +67,26 @@
             <objects>
                 <controller identifier="Outdoors" id="1Sy-Ui-q05">
                     <items>
-                        <imageView height="153" alignment="left" image="Rick" contentMode="scaleAspectFit" id="1pp-ba-Hoy"/>
+                        <label width="136" height="45" alignment="left" text="Tip no.1" textAlignment="center" id="dYI-to-uet"/>
+                        <label height="169" alignment="left" textAlignment="center" numberOfLines="10" id="Ncw-kb-qf6">
+                            <string key="text">Use your surroundings! Using objects as foreground elements can increase the depth of the image, providing a more professional look.</string>
+                        </label>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="352.59259259259261" y="-260.17766497461929"/>
+            <point key="canvasLocation" x="352.59259259259261" y="-240.76142131979694"/>
         </scene>
         <!--Indoors-->
         <scene sceneID="EuY-vg-V5y">
             <objects>
-                <controller identifier="Indoors" id="ugY-y9-Zp6">
-                    <items>
-                        <imageView height="160" alignment="left" image="Krey" contentMode="scaleAspectFit" id="1ms-CK-P0R"/>
-                    </items>
-                </controller>
+                <controller identifier="Indoors" id="ugY-y9-Zp6"/>
             </objects>
             <point key="canvasLocation" x="554.91358024691363" y="-261.04060913705581"/>
         </scene>
         <!--Studio-->
         <scene sceneID="pgy-29-bef">
             <objects>
-                <controller identifier="Studio" id="UB7-CZ-RIs">
-                    <items>
-                        <imageView height="174" alignment="left" image="Gachi" contentMode="scaleAspectFit" id="zWg-A8-heT"/>
-                    </items>
-                </controller>
+                <controller identifier="Studio" id="UB7-CZ-RIs"/>
             </objects>
             <point key="canvasLocation" x="781" y="-261"/>
         </scene>
@@ -133,36 +128,19 @@
             <objects>
                 <notificationController id="YCC-NB-fut">
                     <items>
-                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                        <label width="136" height="63" alignment="left" text="Hello there!" numberOfLines="4" id="IdU-wH-bcW">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                        </label>
+                        <label alignment="left" text="Stay Creative today!" numberOfLines="2" id="Sxp-UD-0ig"/>
                     </items>
                     <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <color key="backgroundColor" red="0.4843840063506159" green="0.066035377451622107" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <connections>
                         <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
-                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
-                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="133" y="860"/>
-        </scene>
-        <!--Notification Controller-->
-        <scene sceneID="ZPc-GJ-vnh">
-            <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="MPG_WatchKit_App" customModuleProvider="target"/>
-            </objects>
-            <point key="canvasLocation" x="467" y="860"/>
-        </scene>
-        <!--Notification Controller-->
-        <scene sceneID="Niz-AI-uX2">
-            <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="MPG_WatchKit_App" customModuleProvider="target"/>
-            </objects>
-            <point key="canvasLocation" x="467" y="546"/>
+            <point key="canvasLocation" x="132.64197530864197" y="854.74619289340092"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Gachi" width="480" height="360"/>
-        <image name="Krey" width="400" height="400"/>
-        <image name="Rick" width="1200" height="861"/>
-    </resources>
 </document>
