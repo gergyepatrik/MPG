@@ -9,32 +9,50 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MPG_WatchKit_App" customModuleProvider="target">
+                <controller fullBounds="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MPG_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="left" title="Portrait" id="S4M-rV-ZND">
-                            <connections>
-                                <action selector="PortraitButtonTapped" destination="AgC-eL-Hgc" id="hso-QQ-FKW"/>
-                            </connections>
-                        </button>
-                        <button width="1" alignment="left" title="Landscape" id="b0r-J2-FxH">
-                            <connections>
-                                <action selector="LandscapeButtonTapped" destination="AgC-eL-Hgc" id="4Th-4Q-vwm"/>
-                            </connections>
-                        </button>
-                        <button width="1" alignment="left" title="Street" id="4Be-iA-FHx">
-                            <connections>
-                                <action selector="StreetButtonTapped" destination="AgC-eL-Hgc" id="96q-iP-L4X"/>
-                            </connections>
-                        </button>
-                        <button width="1" alignment="left" title="Nature" id="2XX-Im-NxN">
-                            <connections>
-                                <action selector="NatureButtonTapped" destination="AgC-eL-Hgc" id="kj5-Ku-GIm"/>
-                            </connections>
-                        </button>
+                        <group width="1" alignment="left" id="F3n-Cr-msw">
+                            <items>
+                                <button width="76" height="67" alignment="left" backgroundImage="person.crop.circle" catalog="system" id="S4M-rV-ZND">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch45mm" height="86" width="96"/>
+                                    <connections>
+                                        <action selector="PortraitButtonTapped" destination="AgC-eL-Hgc" id="hso-QQ-FKW"/>
+                                    </connections>
+                                </button>
+                                <button width="68" height="66" alignment="right" backgroundImage="sun.min.fill" catalog="system" id="b0r-J2-FxH">
+                                    <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch45mm" height="86" width="96"/>
+                                    <connections>
+                                        <action selector="LandscapeButtonTapped" destination="AgC-eL-Hgc" id="4Th-4Q-vwm"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="QeS-dn-5GZ">
+                            <items>
+                                <button width="72" height="67" alignment="left" backgroundImage="building.2.crop.circle" catalog="system" id="4Be-iA-FHx">
+                                    <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch45mm" height="86" width="96"/>
+                                    <connections>
+                                        <action selector="StreetButtonTapped" destination="AgC-eL-Hgc" id="96q-iP-L4X"/>
+                                    </connections>
+                                </button>
+                                <button width="64" height="60" alignment="right" backgroundImage="leaf" catalog="system" id="2XX-Im-NxN">
+                                    <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch45mm" height="60" width="96"/>
+                                    <connections>
+                                        <action selector="NatureButtonTapped" destination="AgC-eL-Hgc" id="kj5-Ku-GIm"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="51" alignment="left" id="fea-iF-DZq"/>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="135" y="-526"/>
+            <point key="canvasLocation" x="134.32098765432099" y="-509.99999999999994"/>
         </scene>
         <!--Portrait-->
         <scene sceneID="MYv-IE-sx2">
@@ -74,12 +92,17 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="352.59259259259261" y="-240.76142131979694"/>
+            <point key="canvasLocation" x="344" y="-261"/>
         </scene>
         <!--Indoors-->
         <scene sceneID="EuY-vg-V5y">
             <objects>
-                <controller identifier="Indoors" id="ugY-y9-Zp6"/>
+                <controller identifier="Indoors" id="ugY-y9-Zp6">
+                    <items>
+                        <button width="1" alignment="left" title="Button" id="F2P-qM-bAs"/>
+                        <label alignment="left" text="Label" id="WGR-SV-Px3"/>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="554.91358024691363" y="-261.04060913705581"/>
         </scene>
@@ -143,4 +166,10 @@
             <point key="canvasLocation" x="132.64197530864197" y="854.74619289340092"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="building.2.crop.circle" catalog="system" width="128" height="121"/>
+        <image name="leaf" catalog="system" width="128" height="108"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="121"/>
+        <image name="sun.min.fill" catalog="system" width="128" height="121"/>
+    </resources>
 </document>

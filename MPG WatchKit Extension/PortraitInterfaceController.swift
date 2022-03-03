@@ -23,5 +23,16 @@ class PortraitInterfaceController: WKInterfaceController {
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
     }
+    
+    @IBOutlet  var label: WKInterfaceLabel!
+    
+    /*
+    @IBAction func printLabel(){
+        label.setTextColor(UIColor.blue)
+        label.setText("random")
+    }
+     */
+  
+    
        
 }
