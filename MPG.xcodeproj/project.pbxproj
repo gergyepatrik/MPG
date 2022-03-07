@@ -20,6 +20,9 @@
 		4D1C3F74273D404100D08C7D /* MPGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C3F73273D404100D08C7D /* MPGUITests.swift */; };
 		4D1C3F76273D404100D08C7D /* MPGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C3F75273D404100D08C7D /* MPGUITestsLaunchTests.swift */; };
 		4D33FD4D27430CBE00736512 /* PortraitInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */; };
+		4D6AA3B127D6336D0079A2AD /* GeneratorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6AA3B027D6336D0079A2AD /* GeneratorController.swift */; };
+		4D6AA3B327D6401D0079A2AD /* tips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AA3B227D6401D0079A2AD /* tips.txt */; };
+		4D6AA3B527D65DF20079A2AD /* amorcito.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AA3B427D65DF20079A2AD /* amorcito.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +100,9 @@
 		4D1C3F73273D404100D08C7D /* MPGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGUITests.swift; sourceTree = "<group>"; };
 		4D1C3F75273D404100D08C7D /* MPGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitInterfaceController.swift; sourceTree = "<group>"; };
+		4D6AA3B027D6336D0079A2AD /* GeneratorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorController.swift; sourceTree = "<group>"; };
+		4D6AA3B227D6401D0079A2AD /* tips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tips.txt; sourceTree = SOURCE_ROOT; };
+		4D6AA3B427D65DF20079A2AD /* amorcito.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = amorcito.txt; path = "MPG WatchKit Extension/amorcito.txt"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +173,9 @@
 				4D1C3F5D273D404100D08C7D /* Assets.xcassets */,
 				4D1C3F5F273D404100D08C7D /* Info.plist */,
 				4D1C3F60273D404100D08C7D /* PushNotificationPayload.apns */,
+				4D6AA3B027D6336D0079A2AD /* GeneratorController.swift */,
+				4D6AA3B227D6401D0079A2AD /* tips.txt */,
+				4D6AA3B427D65DF20079A2AD /* amorcito.txt */,
 			);
 			path = "MPG WatchKit Extension";
 			sourceTree = "<group>";
@@ -341,6 +350,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6AA3B527D65DF20079A2AD /* amorcito.txt in Resources */,
 				4D1C3F4B273D403F00D08C7D /* Assets.xcassets in Resources */,
 				4D1C3F49273D403D00D08C7D /* Interface.storyboard in Resources */,
 			);
@@ -350,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6AA3B327D6401D0079A2AD /* tips.txt in Resources */,
 				4D1C3F5E273D404100D08C7D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +391,7 @@
 				4D1C3F58273D403F00D08C7D /* ExtensionDelegate.swift in Sources */,
 				4D33FD4D27430CBE00736512 /* PortraitInterfaceController.swift in Sources */,
 				4D1C3F56273D403F00D08C7D /* InterfaceController.swift in Sources */,
+				4D6AA3B127D6336D0079A2AD /* GeneratorController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

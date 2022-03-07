@@ -41,7 +41,7 @@
                                 </button>
                                 <button width="64" height="60" alignment="right" backgroundImage="leaf" catalog="system" id="2XX-Im-NxN">
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <variation key="device=watch45mm" height="60" width="96"/>
+                                    <variation key="device=watch45mm" height="106" width="96"/>
                                     <connections>
                                         <action selector="NatureButtonTapped" destination="AgC-eL-Hgc" id="kj5-Ku-GIm"/>
                                     </connections>
@@ -50,9 +50,32 @@
                         </group>
                         <group width="51" alignment="left" id="fea-iF-DZq"/>
                     </items>
+                    <connections>
+                        <segue destination="MSt-23-mlR" kind="relationship" relationship="nextPage" id="Cxp-Vv-Msc"/>
+                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="134.32098765432099" y="-509.99999999999994"/>
+            <point key="canvasLocation" x="133" y="-539"/>
+        </scene>
+        <!--Generator Controller-->
+        <scene sceneID="byW-sn-h9J">
+            <objects>
+                <controller id="MSt-23-mlR" customClass="GeneratorController" customModule="MPG_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" textAlignment="center" id="DoW-fb-e6t"/>
+                        <label width="136" height="162" alignment="center" text="Press the button to generate a new tip!" textAlignment="center" numberOfLines="10" id="xIP-37-9Mn"/>
+                        <button width="1" alignment="left" title="Give me a tip" id="acJ-pP-nTz">
+                            <connections>
+                                <action selector="generateButtonPressed" destination="MSt-23-mlR" id="xkN-K6-m6D"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="tipLabel" destination="xIP-37-9Mn" id="14i-zB-Gnh"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="434.8641975308642" y="-651.09137055837562"/>
         </scene>
         <!--Portrait-->
         <scene sceneID="MYv-IE-sx2">
