@@ -63,8 +63,8 @@
                 <controller id="MSt-23-mlR" customClass="GeneratorController" customModule="MPG_WatchKit_Extension">
                     <items>
                         <label alignment="left" textAlignment="center" id="DoW-fb-e6t"/>
-                        <label width="136" height="162" alignment="center" text="Press the button to generate a new tip!" textAlignment="center" numberOfLines="10" id="xIP-37-9Mn"/>
-                        <button width="1" alignment="left" title="Give me a tip" id="acJ-pP-nTz">
+                        <label width="136" height="161" alignment="center" text="Press the button at the bottom of the page to generate a new tip!" numberOfLines="15" minimumScaleFactor="0.40000000000000002" id="xIP-37-9Mn"/>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Give me a tip" id="acJ-pP-nTz">
                             <connections>
                                 <action selector="generateButtonPressed" destination="MSt-23-mlR" id="xkN-K6-m6D"/>
                             </connections>
