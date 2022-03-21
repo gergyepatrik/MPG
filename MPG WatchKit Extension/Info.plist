@@ -12,5 +12,9 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
 	</dict>
+	<key>kTCCServiceMediaLibrary</key>
+	<string>Play audio</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Need microphone for recording voice notes</string>
 </dict>
 </plist>
