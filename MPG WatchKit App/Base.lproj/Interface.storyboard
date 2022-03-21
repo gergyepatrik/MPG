@@ -72,10 +72,73 @@
                     </items>
                     <connections>
                         <outlet property="tipLabel" destination="xIP-37-9Mn" id="14i-zB-Gnh"/>
+                        <segue destination="Hd4-o8-2OR" kind="relationship" relationship="nextPage" id="MVu-vx-ONH"/>
                     </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="434.8641975308642" y="-651.09137055837562"/>
+        </scene>
+        <!--Soundboard Controller-->
+        <scene sceneID="a4N-qO-hvS">
+            <objects>
+                <controller id="Hd4-o8-2OR" customClass="SoundboardController" customModule="MPG_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="42" alignment="left" id="iVX-6o-hpz">
+                            <items>
+                                <button width="0.5" alignment="left" title="😃" id="Dts-Rp-kIX">
+                                    <connections>
+                                        <action selector="playSoundNoice" destination="Hd4-o8-2OR" id="ocU-pA-lIh"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="🚂" id="OxZ-tk-uVv">
+                                    <connections>
+                                        <action selector="playSoundTrain" destination="Hd4-o8-2OR" id="cDL-AZ-hYz"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.25" alignment="left" id="U7M-Hm-x0V">
+                            <items>
+                                <button width="0.5" alignment="left" title="👹" id="32a-do-HRH">
+                                    <connections>
+                                        <action selector="playSoundTroll" destination="Hd4-o8-2OR" id="0bb-bU-oIU"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="👶" id="QvO-Dm-NqC">
+                                    <connections>
+                                        <action selector="playSoundBaby" destination="Hd4-o8-2OR" id="n24-j3-0Kw"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.25" alignment="left" id="5nZ-Oc-u3u">
+                            <items>
+                                <button width="0.5" alignment="left" title="🐶" id="TXq-i3-sEV">
+                                    <connections>
+                                        <action selector="playSoundWhistle" destination="Hd4-o8-2OR" id="AZR-j3-Z7R"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="😂" id="e5Q-m9-DW2">
+                                    <connections>
+                                        <action selector="playSoundLaugh" destination="Hd4-o8-2OR" id="xcZ-GN-wgT"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.25" alignment="left" id="OfV-Vs-3Ld">
+                            <items>
+                                <button width="0.5" alignment="left" title="🥁" id="qil-x3-PaG">
+                                    <connections>
+                                        <action selector="playSoundChina" destination="Hd4-o8-2OR" id="LzC-0F-T3H"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="Non-functional" id="cha-Ca-LRe"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="663.20987654320993" y="-668.35025380710658"/>
         </scene>
         <!--Portrait-->
         <scene sceneID="MYv-IE-sx2">

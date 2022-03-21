@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1AFE9027E89F78008B0B4A /* SoundboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AFE8F27E89F78008B0B4A /* SoundboardController.swift */; };
+		4D1AFE9227E8A596008B0B4A /* SoundplayingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AFE9127E8A596008B0B4A /* SoundplayingProtocol.swift */; };
+		4D1AFEAA27E8A7C8008B0B4A /* Troll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEA327E8A7C8008B0B4A /* Troll.mp3 */; };
+		4D1AFEAB27E8A7C8008B0B4A /* Laugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEA427E8A7C8008B0B4A /* Laugh.mp3 */; };
+		4D1AFEAC27E8A7C8008B0B4A /* Train.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEA527E8A7C8008B0B4A /* Train.mp3 */; };
+		4D1AFEAD27E8A7C8008B0B4A /* Noice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEA627E8A7C8008B0B4A /* Noice.mp3 */; };
+		4D1AFEAE27E8A7C8008B0B4A /* China.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEA727E8A7C8008B0B4A /* China.mp3 */; };
+		4D1AFEAF27E8A7C8008B0B4A /* BabyCrying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEA827E8A7C8008B0B4A /* BabyCrying.mp3 */; };
+		4D1AFEB027E8A7C8008B0B4A /* Whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEA927E8A7C8008B0B4A /* Whistle.mp3 */; };
 		4D1C3F43273D403D00D08C7D /* MPG WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D1C3F42273D403D00D08C7D /* MPG WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4D1C3F49273D403D00D08C7D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C3F47273D403D00D08C7D /* Interface.storyboard */; };
 		4D1C3F4B273D403F00D08C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C3F4A273D403F00D08C7D /* Assets.xcassets */; };
@@ -22,7 +31,6 @@
 		4D33FD4D27430CBE00736512 /* PortraitInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */; };
 		4D6AA3B127D6336D0079A2AD /* GeneratorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6AA3B027D6336D0079A2AD /* GeneratorController.swift */; };
 		4D6AA3B327D6401D0079A2AD /* tips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AA3B227D6401D0079A2AD /* tips.txt */; };
-		4D6AA3B527D65DF20079A2AD /* amorcito.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AA3B427D65DF20079A2AD /* amorcito.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +90,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D1AFE8F27E89F78008B0B4A /* SoundboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardController.swift; sourceTree = "<group>"; };
+		4D1AFE9127E8A596008B0B4A /* SoundplayingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundplayingProtocol.swift; sourceTree = "<group>"; };
+		4D1AFEA327E8A7C8008B0B4A /* Troll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Troll.mp3; sourceTree = "<group>"; };
+		4D1AFEA427E8A7C8008B0B4A /* Laugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Laugh.mp3; sourceTree = "<group>"; };
+		4D1AFEA527E8A7C8008B0B4A /* Train.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Train.mp3; sourceTree = "<group>"; };
+		4D1AFEA627E8A7C8008B0B4A /* Noice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Noice.mp3; sourceTree = "<group>"; };
+		4D1AFEA727E8A7C8008B0B4A /* China.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = China.mp3; sourceTree = "<group>"; };
+		4D1AFEA827E8A7C8008B0B4A /* BabyCrying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BabyCrying.mp3; sourceTree = "<group>"; };
+		4D1AFEA927E8A7C8008B0B4A /* Whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Whistle.mp3; sourceTree = "<group>"; };
 		4D1C3F3E273D403D00D08C7D /* MPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1C3F42273D403D00D08C7D /* MPG WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MPG WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1C3F48273D403D00D08C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -102,7 +119,6 @@
 		4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitInterfaceController.swift; sourceTree = "<group>"; };
 		4D6AA3B027D6336D0079A2AD /* GeneratorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorController.swift; sourceTree = "<group>"; };
 		4D6AA3B227D6401D0079A2AD /* tips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tips.txt; sourceTree = SOURCE_ROOT; };
-		4D6AA3B427D65DF20079A2AD /* amorcito.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = amorcito.txt; path = "MPG WatchKit Extension/amorcito.txt"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +146,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D1AFEA227E8A7C8008B0B4A /* Soundboard */ = {
+			isa = PBXGroup;
+			children = (
+				4D1AFEA327E8A7C8008B0B4A /* Troll.mp3 */,
+				4D1AFEA427E8A7C8008B0B4A /* Laugh.mp3 */,
+				4D1AFEA527E8A7C8008B0B4A /* Train.mp3 */,
+				4D1AFEA627E8A7C8008B0B4A /* Noice.mp3 */,
+				4D1AFEA727E8A7C8008B0B4A /* China.mp3 */,
+				4D1AFEA827E8A7C8008B0B4A /* BabyCrying.mp3 */,
+				4D1AFEA927E8A7C8008B0B4A /* Whistle.mp3 */,
+			);
+			path = Soundboard;
+			sourceTree = SOURCE_ROOT;
+		};
 		4D1C3F37273D403D00D08C7D = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +195,9 @@
 		4D1C3F54273D403F00D08C7D /* MPG WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4D1AFEA227E8A7C8008B0B4A /* Soundboard */,
 				4D1C3F55273D403F00D08C7D /* InterfaceController.swift */,
+				4D1AFE8F27E89F78008B0B4A /* SoundboardController.swift */,
 				4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */,
 				4D1C3F57273D403F00D08C7D /* ExtensionDelegate.swift */,
 				4D1C3F59273D403F00D08C7D /* NotificationController.swift */,
@@ -175,7 +207,7 @@
 				4D1C3F60273D404100D08C7D /* PushNotificationPayload.apns */,
 				4D6AA3B027D6336D0079A2AD /* GeneratorController.swift */,
 				4D6AA3B227D6401D0079A2AD /* tips.txt */,
-				4D6AA3B427D65DF20079A2AD /* amorcito.txt */,
+				4D1AFE9127E8A596008B0B4A /* SoundplayingProtocol.swift */,
 			);
 			path = "MPG WatchKit Extension";
 			sourceTree = "<group>";
@@ -350,7 +382,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D6AA3B527D65DF20079A2AD /* amorcito.txt in Resources */,
 				4D1C3F4B273D403F00D08C7D /* Assets.xcassets in Resources */,
 				4D1C3F49273D403D00D08C7D /* Interface.storyboard in Resources */,
 			);
@@ -360,7 +391,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1AFEAE27E8A7C8008B0B4A /* China.mp3 in Resources */,
+				4D1AFEAB27E8A7C8008B0B4A /* Laugh.mp3 in Resources */,
+				4D1AFEAD27E8A7C8008B0B4A /* Noice.mp3 in Resources */,
+				4D1AFEAA27E8A7C8008B0B4A /* Troll.mp3 in Resources */,
 				4D6AA3B327D6401D0079A2AD /* tips.txt in Resources */,
+				4D1AFEB027E8A7C8008B0B4A /* Whistle.mp3 in Resources */,
+				4D1AFEAC27E8A7C8008B0B4A /* Train.mp3 in Resources */,
+				4D1AFEAF27E8A7C8008B0B4A /* BabyCrying.mp3 in Resources */,
 				4D1C3F5E273D404100D08C7D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,8 +425,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1C3F5A273D403F00D08C7D /* NotificationController.swift in Sources */,
+				4D1AFE9027E89F78008B0B4A /* SoundboardController.swift in Sources */,
 				4D1C3F5C273D403F00D08C7D /* ComplicationController.swift in Sources */,
 				4D1C3F58273D403F00D08C7D /* ExtensionDelegate.swift in Sources */,
+				4D1AFE9227E8A596008B0B4A /* SoundplayingProtocol.swift in Sources */,
 				4D33FD4D27430CBE00736512 /* PortraitInterfaceController.swift in Sources */,
 				4D1C3F56273D403F00D08C7D /* InterfaceController.swift in Sources */,
 				4D6AA3B127D6336D0079A2AD /* GeneratorController.swift in Sources */,
