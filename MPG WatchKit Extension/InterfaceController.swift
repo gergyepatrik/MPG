@@ -6,10 +6,11 @@
 //
 
 import WatchKit
-import Foundation
+import AVFoundation
 
 
 class InterfaceController: WKInterfaceController {
+    
 
     override func awake(withContext context: Any?) {
         // Configure interface objects here.
@@ -37,8 +38,5 @@ class InterfaceController: WKInterfaceController {
     @IBAction func NatureButtonTapped(){
         self.pushController(withName: "Nature", context: nil)
     }
-    
-    
-    
 
 }

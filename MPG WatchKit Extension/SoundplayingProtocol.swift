@@ -18,6 +18,8 @@ extension SoundPlaying{
         }
         
         try? audioPlayer = AVAudioPlayer(contentsOf: url)
+        audioPlayer?.prepareToPlay()
         audioPlayer?.play()
     }
 }
+ 
