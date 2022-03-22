@@ -11,12 +11,22 @@
             <objects>
                 <controller fullBounds="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MPG_WatchKit_App" customModuleProvider="target">
                     <items>
+                        <group width="1" alignment="left" id="2Wz-G7-phP">
+                            <items>
+                                <label alignment="left" text="Main" textAlignment="left" id="PG8-6b-8fW">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                                </label>
+                                <button width="0.25" alignment="right" title="ℹ️" id="kVb-6K-o4F"/>
+                            </items>
+                        </group>
+                        <separator alignment="left" id="h7a-cv-d8Q"/>
                         <group width="1" alignment="left" id="F3n-Cr-msw">
                             <items>
-                                <button width="76" height="67" alignment="left" backgroundImage="person.crop.circle" catalog="system" id="S4M-rV-ZND">
+                                <button width="67" height="67" alignment="left" backgroundImage="person.crop.circle" catalog="system" id="S4M-rV-ZND">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <variation key="device=watch45mm" height="86" width="96"/>
+                                    <variation key="device=watch45mm" height="86"/>
                                     <connections>
                                         <action selector="PortraitButtonTapped" destination="AgC-eL-Hgc" id="hso-QQ-FKW"/>
                                     </connections>
@@ -57,12 +67,47 @@
             </objects>
             <point key="canvasLocation" x="133" y="-539"/>
         </scene>
+        <!--Interface Controller-->
+        <scene sceneID="rvC-Pw-hvt">
+            <objects>
+                <controller id="dyR-ap-hDD">
+                    <items>
+                        <label width="136" height="166" alignment="center" verticalAlignment="center" text="This page provides useful photography tips and trick after pressing the button below." textAlignment="center" numberOfLines="10" id="fFO-T6-fmA"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="512.09876543209873" y="-1044.5939086294416"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Jxt-f8-UNS">
+            <objects>
+                <controller id="ZCN-eZ-ZuO">
+                    <items>
+                        <label width="136" height="157" alignment="center" verticalAlignment="center" text="This page provides different sounds that can catch the attention of the subjects resulting them looking at the camera." textAlignment="center" numberOfLines="14" id="OMk-8R-fFU"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="881.48148148148152" y="-1045.4568527918782"/>
+        </scene>
         <!--Generator Controller-->
         <scene sceneID="byW-sn-h9J">
             <objects>
                 <controller id="MSt-23-mlR" customClass="GeneratorController" customModule="MPG_WatchKit_Extension">
                     <items>
                         <label alignment="left" textAlignment="center" id="DoW-fb-e6t"/>
+                        <group width="1" alignment="left" id="Yd5-G9-fQs">
+                            <items>
+                                <label alignment="left" text="Tips" id="4jc-pv-yNu">
+                                    <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                                </label>
+                                <button width="0.25" alignment="right" title="ℹ️" id="U0S-JG-Rwy">
+                                    <connections>
+                                        <segue destination="dyR-ap-hDD" kind="modal" id="xEL-hs-AUR"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <separator alignment="left" id="NAK-MT-IeF"/>
                         <label width="136" height="161" alignment="center" text="Press the button at the bottom of the page to generate a new tip!" numberOfLines="15" minimumScaleFactor="0.40000000000000002" id="xIP-37-9Mn"/>
                         <button width="1" alignment="left" verticalAlignment="bottom" title="Give me a tip" id="acJ-pP-nTz">
                             <connections>
@@ -83,6 +128,19 @@
             <objects>
                 <controller id="Hd4-o8-2OR" customClass="SoundboardController" customModule="MPG_WatchKit_Extension">
                     <items>
+                        <group width="1" alignment="left" id="84e-cJ-zYg">
+                            <items>
+                                <label alignment="left" text="Sounds" id="pmo-S3-82s">
+                                    <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                                </label>
+                                <button width="0.25" alignment="right" title="ℹ️" id="lO2-Tg-5gy">
+                                    <connections>
+                                        <segue destination="ZCN-eZ-ZuO" kind="modal" id="eZE-k3-sxY"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <separator alignment="left" id="kuE-Ua-22Z"/>
                         <group width="1" height="42" alignment="left" id="iVX-6o-hpz">
                             <items>
                                 <button width="0.5" alignment="left" title="😃" id="Dts-Rp-kIX">
@@ -138,7 +196,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="663.20987654320993" y="-668.35025380710658"/>
+            <point key="canvasLocation" x="781" y="-667"/>
         </scene>
         <!--Portrait-->
         <scene sceneID="MYv-IE-sx2">
