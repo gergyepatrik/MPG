@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D19457827F36B860066C4F4 /* Troll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D19457127F36B860066C4F4 /* Troll.mp3 */; };
+		4D19457927F36B860066C4F4 /* Laugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D19457227F36B860066C4F4 /* Laugh.mp3 */; };
+		4D19457A27F36B860066C4F4 /* Train.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D19457327F36B860066C4F4 /* Train.mp3 */; };
+		4D19457B27F36B860066C4F4 /* Noice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D19457427F36B860066C4F4 /* Noice.mp3 */; };
+		4D19457C27F36B860066C4F4 /* China.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D19457527F36B860066C4F4 /* China.mp3 */; };
+		4D19457D27F36B860066C4F4 /* BabyCrying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D19457627F36B860066C4F4 /* BabyCrying.mp3 */; };
+		4D19457E27F36B860066C4F4 /* Whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D19457727F36B860066C4F4 /* Whistle.mp3 */; };
 		4D1AFE9027E89F78008B0B4A /* SoundboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AFE8F27E89F78008B0B4A /* SoundboardController.swift */; };
 		4D1AFE9227E8A596008B0B4A /* SoundplayingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AFE9127E8A596008B0B4A /* SoundplayingProtocol.swift */; };
-		4D1AFEB927E8B086008B0B4A /* Troll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEB227E8B086008B0B4A /* Troll.mp3 */; };
-		4D1AFEBA27E8B086008B0B4A /* Laugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEB327E8B086008B0B4A /* Laugh.mp3 */; };
-		4D1AFEBB27E8B086008B0B4A /* Train.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEB427E8B086008B0B4A /* Train.mp3 */; };
-		4D1AFEBC27E8B086008B0B4A /* Noice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEB527E8B086008B0B4A /* Noice.mp3 */; };
-		4D1AFEBD27E8B086008B0B4A /* China.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEB627E8B086008B0B4A /* China.mp3 */; };
-		4D1AFEBE27E8B086008B0B4A /* BabyCrying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEB727E8B086008B0B4A /* BabyCrying.mp3 */; };
-		4D1AFEBF27E8B086008B0B4A /* Whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AFEB827E8B086008B0B4A /* Whistle.mp3 */; };
 		4D1C3F43273D403D00D08C7D /* MPG WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D1C3F42273D403D00D08C7D /* MPG WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4D1C3F49273D403D00D08C7D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C3F47273D403D00D08C7D /* Interface.storyboard */; };
 		4D1C3F4B273D403F00D08C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C3F4A273D403F00D08C7D /* Assets.xcassets */; };
@@ -90,15 +90,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D19457127F36B860066C4F4 /* Troll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Troll.mp3; sourceTree = "<group>"; };
+		4D19457227F36B860066C4F4 /* Laugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Laugh.mp3; sourceTree = "<group>"; };
+		4D19457327F36B860066C4F4 /* Train.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Train.mp3; sourceTree = "<group>"; };
+		4D19457427F36B860066C4F4 /* Noice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Noice.mp3; sourceTree = "<group>"; };
+		4D19457527F36B860066C4F4 /* China.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = China.mp3; sourceTree = "<group>"; };
+		4D19457627F36B860066C4F4 /* BabyCrying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BabyCrying.mp3; sourceTree = "<group>"; };
+		4D19457727F36B860066C4F4 /* Whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Whistle.mp3; sourceTree = "<group>"; };
 		4D1AFE8F27E89F78008B0B4A /* SoundboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardController.swift; sourceTree = "<group>"; };
 		4D1AFE9127E8A596008B0B4A /* SoundplayingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundplayingProtocol.swift; sourceTree = "<group>"; };
-		4D1AFEB227E8B086008B0B4A /* Troll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Troll.mp3; sourceTree = "<group>"; };
-		4D1AFEB327E8B086008B0B4A /* Laugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Laugh.mp3; sourceTree = "<group>"; };
-		4D1AFEB427E8B086008B0B4A /* Train.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Train.mp3; sourceTree = "<group>"; };
-		4D1AFEB527E8B086008B0B4A /* Noice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Noice.mp3; sourceTree = "<group>"; };
-		4D1AFEB627E8B086008B0B4A /* China.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = China.mp3; sourceTree = "<group>"; };
-		4D1AFEB727E8B086008B0B4A /* BabyCrying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BabyCrying.mp3; sourceTree = "<group>"; };
-		4D1AFEB827E8B086008B0B4A /* Whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Whistle.mp3; sourceTree = "<group>"; };
 		4D1C3F3E273D403D00D08C7D /* MPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1C3F42273D403D00D08C7D /* MPG WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MPG WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1C3F48273D403D00D08C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -146,16 +146,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D1AFEB127E8B086008B0B4A /* Soundboard */ = {
+		4D19457027F36B860066C4F4 /* Soundboard */ = {
 			isa = PBXGroup;
 			children = (
-				4D1AFEB227E8B086008B0B4A /* Troll.mp3 */,
-				4D1AFEB327E8B086008B0B4A /* Laugh.mp3 */,
-				4D1AFEB427E8B086008B0B4A /* Train.mp3 */,
-				4D1AFEB527E8B086008B0B4A /* Noice.mp3 */,
-				4D1AFEB627E8B086008B0B4A /* China.mp3 */,
-				4D1AFEB727E8B086008B0B4A /* BabyCrying.mp3 */,
-				4D1AFEB827E8B086008B0B4A /* Whistle.mp3 */,
+				4D19457127F36B860066C4F4 /* Troll.mp3 */,
+				4D19457227F36B860066C4F4 /* Laugh.mp3 */,
+				4D19457327F36B860066C4F4 /* Train.mp3 */,
+				4D19457427F36B860066C4F4 /* Noice.mp3 */,
+				4D19457527F36B860066C4F4 /* China.mp3 */,
+				4D19457627F36B860066C4F4 /* BabyCrying.mp3 */,
+				4D19457727F36B860066C4F4 /* Whistle.mp3 */,
 			);
 			path = Soundboard;
 			sourceTree = SOURCE_ROOT;
@@ -195,7 +195,7 @@
 		4D1C3F54273D403F00D08C7D /* MPG WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				4D1AFEB127E8B086008B0B4A /* Soundboard */,
+				4D19457027F36B860066C4F4 /* Soundboard */,
 				4D1C3F55273D403F00D08C7D /* InterfaceController.swift */,
 				4D1AFE8F27E89F78008B0B4A /* SoundboardController.swift */,
 				4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */,
@@ -391,14 +391,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1AFEBD27E8B086008B0B4A /* China.mp3 in Resources */,
-				4D1AFEBA27E8B086008B0B4A /* Laugh.mp3 in Resources */,
-				4D1AFEBC27E8B086008B0B4A /* Noice.mp3 in Resources */,
-				4D1AFEB927E8B086008B0B4A /* Troll.mp3 in Resources */,
+				4D19457C27F36B860066C4F4 /* China.mp3 in Resources */,
+				4D19457927F36B860066C4F4 /* Laugh.mp3 in Resources */,
+				4D19457B27F36B860066C4F4 /* Noice.mp3 in Resources */,
+				4D19457827F36B860066C4F4 /* Troll.mp3 in Resources */,
 				4D6AA3B327D6401D0079A2AD /* tips.txt in Resources */,
-				4D1AFEBF27E8B086008B0B4A /* Whistle.mp3 in Resources */,
-				4D1AFEBB27E8B086008B0B4A /* Train.mp3 in Resources */,
-				4D1AFEBE27E8B086008B0B4A /* BabyCrying.mp3 in Resources */,
+				4D19457E27F36B860066C4F4 /* Whistle.mp3 in Resources */,
+				4D19457A27F36B860066C4F4 /* Train.mp3 in Resources */,
+				4D19457D27F36B860066C4F4 /* BabyCrying.mp3 in Resources */,
 				4D1C3F5E273D404100D08C7D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
