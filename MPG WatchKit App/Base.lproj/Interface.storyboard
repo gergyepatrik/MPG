@@ -44,14 +44,13 @@
                                 </button>
                             </items>
                         </group>
-                        <group width="51" alignment="left" id="fea-iF-DZq"/>
                     </items>
                     <connections>
-                        <segue destination="MSt-23-mlR" kind="relationship" relationship="nextPage" id="Cxp-Vv-Msc"/>
+                        <segue destination="MSt-23-mlR" kind="relationship" relationship="nextPage" id="MkM-A7-uxd"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="133" y="-561"/>
+            <point key="canvasLocation" x="133" y="-639"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="rvC-Pw-hvt">
