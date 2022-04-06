@@ -15,7 +15,6 @@
 		4D19457D27F36B860066C4F4 /* BabyCrying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D19457627F36B860066C4F4 /* BabyCrying.mp3 */; };
 		4D19457E27F36B860066C4F4 /* Whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D19457727F36B860066C4F4 /* Whistle.mp3 */; };
 		4D1AFE9027E89F78008B0B4A /* SoundboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AFE8F27E89F78008B0B4A /* SoundboardController.swift */; };
-		4D1AFE9227E8A596008B0B4A /* SoundplayingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AFE9127E8A596008B0B4A /* SoundplayingProtocol.swift */; };
 		4D1C3F43273D403D00D08C7D /* MPG WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D1C3F42273D403D00D08C7D /* MPG WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4D1C3F49273D403D00D08C7D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C3F47273D403D00D08C7D /* Interface.storyboard */; };
 		4D1C3F4B273D403F00D08C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C3F4A273D403F00D08C7D /* Assets.xcassets */; };
@@ -31,6 +30,8 @@
 		4D33FD4D27430CBE00736512 /* PortraitInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */; };
 		4D6AA3B127D6336D0079A2AD /* GeneratorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6AA3B027D6336D0079A2AD /* GeneratorController.swift */; };
 		4D6AA3B327D6401D0079A2AD /* tips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AA3B227D6401D0079A2AD /* tips.txt */; };
+		4D82658527FDB761000E40BD /* SoundPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D82658427FDB761000E40BD /* SoundPlaying.swift */; };
+		4D82658827FDBB28000E40BD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D82658727FDBB28000E40BD /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,7 +99,6 @@
 		4D19457627F36B860066C4F4 /* BabyCrying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BabyCrying.mp3; sourceTree = "<group>"; };
 		4D19457727F36B860066C4F4 /* Whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Whistle.mp3; sourceTree = "<group>"; };
 		4D1AFE8F27E89F78008B0B4A /* SoundboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardController.swift; sourceTree = "<group>"; };
-		4D1AFE9127E8A596008B0B4A /* SoundplayingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundplayingProtocol.swift; sourceTree = "<group>"; };
 		4D1C3F3E273D403D00D08C7D /* MPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1C3F42273D403D00D08C7D /* MPG WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MPG WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1C3F48273D403D00D08C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -119,6 +119,8 @@
 		4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitInterfaceController.swift; sourceTree = "<group>"; };
 		4D6AA3B027D6336D0079A2AD /* GeneratorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorController.swift; sourceTree = "<group>"; };
 		4D6AA3B227D6401D0079A2AD /* tips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tips.txt; sourceTree = SOURCE_ROOT; };
+		4D82658427FDB761000E40BD /* SoundPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlaying.swift; sourceTree = "<group>"; };
+		4D82658727FDBB28000E40BD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D82658827FDBB28000E40BD /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,10 +152,10 @@
 		4D19457027F36B860066C4F4 /* Soundboard */ = {
 			isa = PBXGroup;
 			children = (
+				4D19457427F36B860066C4F4 /* Noice.mp3 */,
+				4D19457327F36B860066C4F4 /* Train.mp3 */,
 				4D19457127F36B860066C4F4 /* Troll.mp3 */,
 				4D19457227F36B860066C4F4 /* Laugh.mp3 */,
-				4D19457327F36B860066C4F4 /* Train.mp3 */,
-				4D19457427F36B860066C4F4 /* Noice.mp3 */,
 				4D19457527F36B860066C4F4 /* China.mp3 */,
 				4D19457627F36B860066C4F4 /* BabyCrying.mp3 */,
 				4D19457727F36B860066C4F4 /* Whistle.mp3 */,
@@ -168,6 +171,7 @@
 				4D1C3F68273D404100D08C7D /* MPGTests */,
 				4D1C3F72273D404100D08C7D /* MPGUITests */,
 				4D1C3F3F273D403D00D08C7D /* Products */,
+				4D82658627FDBB28000E40BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,6 +202,7 @@
 				4D19457027F36B860066C4F4 /* Soundboard */,
 				4D1C3F55273D403F00D08C7D /* InterfaceController.swift */,
 				4D1AFE8F27E89F78008B0B4A /* SoundboardController.swift */,
+				4D82658427FDB761000E40BD /* SoundPlaying.swift */,
 				4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */,
 				4D1C3F57273D403F00D08C7D /* ExtensionDelegate.swift */,
 				4D1C3F59273D403F00D08C7D /* NotificationController.swift */,
@@ -207,7 +212,6 @@
 				4D1C3F60273D404100D08C7D /* PushNotificationPayload.apns */,
 				4D6AA3B027D6336D0079A2AD /* GeneratorController.swift */,
 				4D6AA3B227D6401D0079A2AD /* tips.txt */,
-				4D1AFE9127E8A596008B0B4A /* SoundplayingProtocol.swift */,
 			);
 			path = "MPG WatchKit Extension";
 			sourceTree = "<group>";
@@ -227,6 +231,14 @@
 				4D1C3F75273D404100D08C7D /* MPGUITestsLaunchTests.swift */,
 			);
 			path = MPGUITests;
+			sourceTree = "<group>";
+		};
+		4D82658627FDBB28000E40BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D82658727FDBB28000E40BD /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,8 +440,8 @@
 				4D1AFE9027E89F78008B0B4A /* SoundboardController.swift in Sources */,
 				4D1C3F5C273D403F00D08C7D /* ComplicationController.swift in Sources */,
 				4D1C3F58273D403F00D08C7D /* ExtensionDelegate.swift in Sources */,
-				4D1AFE9227E8A596008B0B4A /* SoundplayingProtocol.swift in Sources */,
 				4D33FD4D27430CBE00736512 /* PortraitInterfaceController.swift in Sources */,
+				4D82658527FDB761000E40BD /* SoundPlaying.swift in Sources */,
 				4D1C3F56273D403F00D08C7D /* InterfaceController.swift in Sources */,
 				4D6AA3B127D6336D0079A2AD /* GeneratorController.swift in Sources */,
 			);

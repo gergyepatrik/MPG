@@ -8,6 +8,7 @@
 import WatchKit
 import AVFoundation
 import Foundation
+import UIKit
 
 
 class SoundboardController: WKInterfaceController, SoundPlaying {
@@ -35,31 +36,31 @@ class SoundboardController: WKInterfaceController, SoundPlaying {
     }
     
     @IBAction func playSoundNoice() {
-        playSound(named: "Noice")
+       playSound(named: "Noice")
     }
     
     @IBAction func playSoundTrain() {
-        playSound(named: "Train")
+       playSound(named: "Train")
     }
     
     @IBAction func playSoundTroll() {
-        playSound(named: "Troll")
+       playSound(named: "Troll")
     }
     
     @IBAction func playSoundBaby() {
-        playSound(named: "BabyCrying")
+       playSound(named: "BabyCrying")
     }
     
     @IBAction func playSoundWhistle() {
-        playSound(named: "Whistle")
+       playSound(named: "Whistle")
     }
     
     @IBAction func playSoundLaugh() {
-        playSound(named: "Laugh")
+       playSound(named: "Laugh")
     }
     
     @IBAction func playSoundChina() {
-        playSound(named: "China")
+       playSound(named: "China")
     }
     
 }

@@ -51,7 +51,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="133" y="-539"/>
+            <point key="canvasLocation" x="133" y="-561"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="rvC-Pw-hvt">
@@ -215,10 +215,10 @@
             <objects>
                 <controller identifier="Outdoors" id="1Sy-Ui-q05">
                     <items>
-                        <label width="136" height="45" alignment="left" text="Tip no.1" textAlignment="center" id="dYI-to-uet"/>
                         <label height="169" alignment="left" textAlignment="center" numberOfLines="10" id="Ncw-kb-qf6">
                             <string key="text">Use your surroundings! Using objects as foreground elements can increase the depth of the image, providing a more professional look.</string>
                         </label>
+                        <imageView alignment="left" image="Rick" id="jyN-e4-n0O"/>
                     </items>
                 </controller>
             </objects>
@@ -297,6 +297,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Rick" width="1200" height="861"/>
         <image name="building.2.crop.circle" catalog="system" width="128" height="121"/>
         <image name="leaf" catalog="system" width="128" height="108"/>
         <image name="person.crop.circle" catalog="system" width="128" height="121"/>
