@@ -13,6 +13,8 @@ import UIKit
 
 class SoundboardController: WKInterfaceController, SoundPlaying {
     
+    
+    // Making an optional audio player
     var audioPlayer: AVAudioPlayer?
     
  
@@ -35,6 +37,8 @@ class SoundboardController: WKInterfaceController, SoundPlaying {
         super.didDeactivate()
     }
     
+    
+    // Functions that process each button press and play the sounds
     @IBAction func playSoundNoice() {
        playSound(named: "Noice")
     }
