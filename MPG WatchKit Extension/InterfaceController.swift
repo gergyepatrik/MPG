@@ -11,6 +11,13 @@ import AVFoundation
 
 class InterfaceController: WKInterfaceController {
     
+    // ? before operations of methods means optional value
+    // If the value before the ? is nil(nullpointer) everything after
+    // the ? is ignored and the value of the whole expression is nil
+    // Otherwise, the optional value is unwrapped, and everything after
+    // the ? acts on the unwrapped value. If the optional does contain a
+    // value, accessing the value is possible with the ! at the end of the
+    // optional's name
 
     override func awake(withContext context: Any?) {
         // Configure interface objects here.

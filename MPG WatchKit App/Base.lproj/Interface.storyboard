@@ -221,34 +221,33 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="344" y="-261"/>
+            <point key="canvasLocation" x="497" y="-291"/>
         </scene>
         <!--Indoors-->
         <scene sceneID="EuY-vg-V5y">
             <objects>
-                <controller identifier="Indoors" id="ugY-y9-Zp6">
-                    <items>
-                        <button width="1" alignment="left" title="Button" id="F2P-qM-bAs"/>
-                        <label alignment="left" text="Label" id="WGR-SV-Px3"/>
-                    </items>
-                </controller>
+                <controller identifier="Indoors" id="ugY-y9-Zp6"/>
             </objects>
-            <point key="canvasLocation" x="554.91358024691363" y="-261.04060913705581"/>
+            <point key="canvasLocation" x="706" y="-341"/>
         </scene>
         <!--Studio-->
         <scene sceneID="pgy-29-bef">
             <objects>
                 <controller identifier="Studio" id="UB7-CZ-RIs"/>
             </objects>
-            <point key="canvasLocation" x="781" y="-261"/>
+            <point key="canvasLocation" x="902" y="-341"/>
         </scene>
         <!--Landscape-->
         <scene sceneID="3yz-PI-oRQ">
             <objects>
-                <controller identifier="Landscape" id="Bkw-Ke-KfT">
+                <controller identifier="Landscape" id="Bkw-Ke-KfT" customClass="LandscapeController" customModule="MPG_WatchKit_Extension">
                     <items>
                         <label alignment="left" text="Landscape" id="Ae0-Vu-S4w"/>
+                        <movie width="1" height="100" alignment="left" id="cWX-gi-RWv"/>
                     </items>
+                    <connections>
+                        <outlet property="moviePlayer" destination="cWX-gi-RWv" id="tpq-Fw-vS8"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="133" y="11"/>

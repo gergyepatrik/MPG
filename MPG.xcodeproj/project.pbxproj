@@ -32,6 +32,8 @@
 		4D6AA3B327D6401D0079A2AD /* tips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AA3B227D6401D0079A2AD /* tips.txt */; };
 		4D82658527FDB761000E40BD /* SoundPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D82658427FDB761000E40BD /* SoundPlaying.swift */; };
 		4D82658827FDBB28000E40BD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D82658727FDBB28000E40BD /* AVFoundation.framework */; };
+		4DD668B627FF25E400136A96 /* LandscapeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD668B527FF25E400136A96 /* LandscapeController.swift */; };
+		4DD668B827FF2B1800136A96 /* test.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 4DD668B727FF2B1700136A96 /* test.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +123,8 @@
 		4D6AA3B227D6401D0079A2AD /* tips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tips.txt; sourceTree = SOURCE_ROOT; };
 		4D82658427FDB761000E40BD /* SoundPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlaying.swift; sourceTree = "<group>"; };
 		4D82658727FDBB28000E40BD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		4DD668B527FF25E400136A96 /* LandscapeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeController.swift; sourceTree = "<group>"; };
+		4DD668B727FF2B1700136A96 /* test.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +208,8 @@
 				4D1AFE8F27E89F78008B0B4A /* SoundboardController.swift */,
 				4D82658427FDB761000E40BD /* SoundPlaying.swift */,
 				4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */,
+				4DD668B527FF25E400136A96 /* LandscapeController.swift */,
+				4DD668B727FF2B1700136A96 /* test.MOV */,
 				4D1C3F57273D403F00D08C7D /* ExtensionDelegate.swift */,
 				4D1C3F59273D403F00D08C7D /* NotificationController.swift */,
 				4D1C3F5B273D403F00D08C7D /* ComplicationController.swift */,
@@ -411,6 +417,7 @@
 				4D19457E27F36B860066C4F4 /* Whistle.mp3 in Resources */,
 				4D19457A27F36B860066C4F4 /* Train.mp3 in Resources */,
 				4D19457D27F36B860066C4F4 /* BabyCrying.mp3 in Resources */,
+				4DD668B827FF2B1800136A96 /* test.MOV in Resources */,
 				4D1C3F5E273D404100D08C7D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1C3F5A273D403F00D08C7D /* NotificationController.swift in Sources */,
+				4DD668B627FF25E400136A96 /* LandscapeController.swift in Sources */,
 				4D1AFE9027E89F78008B0B4A /* SoundboardController.swift in Sources */,
 				4D1C3F5C273D403F00D08C7D /* ComplicationController.swift in Sources */,
 				4D1C3F58273D403F00D08C7D /* ExtensionDelegate.swift in Sources */,
