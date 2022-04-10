@@ -27,13 +27,15 @@
 		4D1C3F6A273D404100D08C7D /* MPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C3F69273D404100D08C7D /* MPGTests.swift */; };
 		4D1C3F74273D404100D08C7D /* MPGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C3F73273D404100D08C7D /* MPGUITests.swift */; };
 		4D1C3F76273D404100D08C7D /* MPGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C3F75273D404100D08C7D /* MPGUITestsLaunchTests.swift */; };
-		4D33FD4D27430CBE00736512 /* PortraitInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */; };
+		4D33FD4D27430CBE00736512 /* PortraitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33FD4C27430CBE00736512 /* PortraitController.swift */; };
 		4D6AA3B127D6336D0079A2AD /* GeneratorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6AA3B027D6336D0079A2AD /* GeneratorController.swift */; };
 		4D6AA3B327D6401D0079A2AD /* tips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AA3B227D6401D0079A2AD /* tips.txt */; };
 		4D82658527FDB761000E40BD /* SoundPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D82658427FDB761000E40BD /* SoundPlaying.swift */; };
 		4D82658827FDBB28000E40BD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D82658727FDBB28000E40BD /* AVFoundation.framework */; };
 		4DD668B627FF25E400136A96 /* LandscapeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD668B527FF25E400136A96 /* LandscapeController.swift */; };
 		4DD668B827FF2B1800136A96 /* test.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 4DD668B727FF2B1700136A96 /* test.MOV */; };
+		4DD668BC2801C55D00136A96 /* StreetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD668BB2801C55D00136A96 /* StreetController.swift */; };
+		4DD668BE2801C5FC00136A96 /* NatureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD668BD2801C5FC00136A96 /* NatureController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,13 +120,15 @@
 		4D1C3F6F273D404100D08C7D /* MPGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1C3F73273D404100D08C7D /* MPGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGUITests.swift; sourceTree = "<group>"; };
 		4D1C3F75273D404100D08C7D /* MPGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitInterfaceController.swift; sourceTree = "<group>"; };
+		4D33FD4C27430CBE00736512 /* PortraitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitController.swift; sourceTree = "<group>"; };
 		4D6AA3B027D6336D0079A2AD /* GeneratorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorController.swift; sourceTree = "<group>"; };
 		4D6AA3B227D6401D0079A2AD /* tips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tips.txt; sourceTree = SOURCE_ROOT; };
 		4D82658427FDB761000E40BD /* SoundPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlaying.swift; sourceTree = "<group>"; };
 		4D82658727FDBB28000E40BD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		4DD668B527FF25E400136A96 /* LandscapeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeController.swift; sourceTree = "<group>"; };
 		4DD668B727FF2B1700136A96 /* test.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test.MOV; sourceTree = "<group>"; };
+		4DD668BB2801C55D00136A96 /* StreetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetController.swift; sourceTree = "<group>"; };
+		4DD668BD2801C5FC00136A96 /* NatureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,20 +207,22 @@
 		4D1C3F54273D403F00D08C7D /* MPG WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4DD668B727FF2B1700136A96 /* test.MOV */,
 				4D19457027F36B860066C4F4 /* Soundboard */,
 				4D1C3F55273D403F00D08C7D /* InterfaceController.swift */,
+				4D33FD4C27430CBE00736512 /* PortraitController.swift */,
+				4DD668B527FF25E400136A96 /* LandscapeController.swift */,
+				4DD668BB2801C55D00136A96 /* StreetController.swift */,
+				4DD668BD2801C5FC00136A96 /* NatureController.swift */,
+				4D6AA3B027D6336D0079A2AD /* GeneratorController.swift */,
 				4D1AFE8F27E89F78008B0B4A /* SoundboardController.swift */,
 				4D82658427FDB761000E40BD /* SoundPlaying.swift */,
-				4D33FD4C27430CBE00736512 /* PortraitInterfaceController.swift */,
-				4DD668B527FF25E400136A96 /* LandscapeController.swift */,
-				4DD668B727FF2B1700136A96 /* test.MOV */,
 				4D1C3F57273D403F00D08C7D /* ExtensionDelegate.swift */,
 				4D1C3F59273D403F00D08C7D /* NotificationController.swift */,
 				4D1C3F5B273D403F00D08C7D /* ComplicationController.swift */,
 				4D1C3F5D273D404100D08C7D /* Assets.xcassets */,
 				4D1C3F5F273D404100D08C7D /* Info.plist */,
 				4D1C3F60273D404100D08C7D /* PushNotificationPayload.apns */,
-				4D6AA3B027D6336D0079A2AD /* GeneratorController.swift */,
 				4D6AA3B227D6401D0079A2AD /* tips.txt */,
 			);
 			path = "MPG WatchKit Extension";
@@ -446,9 +452,11 @@
 				4D1C3F5A273D403F00D08C7D /* NotificationController.swift in Sources */,
 				4DD668B627FF25E400136A96 /* LandscapeController.swift in Sources */,
 				4D1AFE9027E89F78008B0B4A /* SoundboardController.swift in Sources */,
+				4DD668BE2801C5FC00136A96 /* NatureController.swift in Sources */,
 				4D1C3F5C273D403F00D08C7D /* ComplicationController.swift in Sources */,
+				4DD668BC2801C55D00136A96 /* StreetController.swift in Sources */,
 				4D1C3F58273D403F00D08C7D /* ExtensionDelegate.swift in Sources */,
-				4D33FD4D27430CBE00736512 /* PortraitInterfaceController.swift in Sources */,
+				4D33FD4D27430CBE00736512 /* PortraitController.swift in Sources */,
 				4D82658527FDB761000E40BD /* SoundPlaying.swift in Sources */,
 				4D1C3F56273D403F00D08C7D /* InterfaceController.swift in Sources */,
 				4D6AA3B127D6336D0079A2AD /* GeneratorController.swift in Sources */,

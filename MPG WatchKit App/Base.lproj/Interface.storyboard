@@ -255,10 +255,14 @@
         <!--Street-->
         <scene sceneID="CTV-PI-Jvq">
             <objects>
-                <controller identifier="Street" id="BYO-fl-yrE">
+                <controller identifier="Street" id="BYO-fl-yrE" customClass="StreetController" customModule="MPG_WatchKit_Extension">
                     <items>
                         <label alignment="left" text="Street" id="XDQ-p2-ZWf"/>
+                        <movie width="1" height="100" alignment="left" id="k8A-fY-sRA"/>
                     </items>
+                    <connections>
+                        <outlet property="moviePlayer" destination="k8A-fY-sRA" id="hC2-X5-uDt"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="134" y="281"/>
@@ -266,10 +270,14 @@
         <!--Nature-->
         <scene sceneID="PEQ-x7-xMv">
             <objects>
-                <controller identifier="Nature" id="vpV-aw-GFg">
+                <controller identifier="Nature" id="vpV-aw-GFg" customClass="NatureController" customModule="MPG_WatchKit_Extension">
                     <items>
                         <label height="19" alignment="left" text="Nature" id="4qG-t8-mlW"/>
+                        <movie width="1" height="100" alignment="left" id="un3-x1-n11"/>
                     </items>
+                    <connections>
+                        <outlet property="moviePlayer" destination="un3-x1-n11" id="WF6-wR-zNB"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="133" y="548"/>

@@ -33,16 +33,16 @@ class InterfaceController: WKInterfaceController {
     
     
     //First screen button taps
-    @IBAction func PortraitButtonTapped(){
+    @IBAction func portraitButtonTapped(){
         self.pushController(withName: "Portrait", context: nil)
     }
-    @IBAction func LandscapeButtonTapped(){
+    @IBAction func landscapeButtonTapped(){
         self.pushController(withName: "Landscape", context: nil)
     }
-    @IBAction func StreetButtonTapped(){
+    @IBAction func streetButtonTapped(){
         self.pushController(withName: "Street", context: nil)
     }
-    @IBAction func NatureButtonTapped(){
+    @IBAction func natureButtonTapped(){
         self.pushController(withName: "Nature", context: nil)
     }
 

@@ -10,7 +10,7 @@ import WatchKit
 
 
 
-class PortraitInterfaceController: WKInterfaceController {
+class PortraitController: WKInterfaceController {
 
     override func awake(withContext context: Any?) {
         // Configure interface objects here.
