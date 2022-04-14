@@ -97,7 +97,7 @@
                             </items>
                         </group>
                         <separator alignment="left" id="NAK-MT-IeF"/>
-                        <label width="136" height="161" alignment="center" text="Press the button at the bottom of the page to generate a new tip!" numberOfLines="15" minimumScaleFactor="0.40000000000000002" id="xIP-37-9Mn"/>
+                        <label height="161" alignment="center" text="Press the button at the bottom of the page to generate a new tip!" numberOfLines="15" minimumScaleFactor="0.40000000000000002" id="xIP-37-9Mn"/>
                         <button width="1" alignment="left" verticalAlignment="bottom" title="Give me a tip" id="acJ-pP-nTz">
                             <connections>
                                 <action selector="generateButtonPressed" destination="MSt-23-mlR" id="xkN-K6-m6D"/>
@@ -110,7 +110,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="434.8641975308642" y="-651.09137055837562"/>
+            <point key="canvasLocation" x="434.8641975308642" y="-651.52284263959382"/>
         </scene>
         <!--Soundboard Controller-->
         <scene sceneID="a4N-qO-hvS">
