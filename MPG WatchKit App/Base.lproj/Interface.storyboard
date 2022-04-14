@@ -16,12 +16,14 @@
                                 <button width="0.5" height="90" alignment="left" backgroundImage="person.crop.circle" catalog="system" id="S4M-rV-ZND">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch42mm" height="72"/>
                                     <connections>
                                         <action selector="PortraitButtonTapped" destination="AgC-eL-Hgc" id="hso-QQ-FKW"/>
                                     </connections>
                                 </button>
                                 <button width="0.5" height="90" alignment="right" backgroundImage="sun.min.fill" catalog="system" id="b0r-J2-FxH">
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch42mm" height="72"/>
                                     <connections>
                                         <action selector="LandscapeButtonTapped" destination="AgC-eL-Hgc" id="4Th-4Q-vwm"/>
                                     </connections>
@@ -32,12 +34,14 @@
                             <items>
                                 <button width="0.5" height="90" alignment="left" backgroundImage="building.2.crop.circle" catalog="system" id="4Be-iA-FHx">
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch42mm" height="72"/>
                                     <connections>
                                         <action selector="StreetButtonTapped" destination="AgC-eL-Hgc" id="96q-iP-L4X"/>
                                     </connections>
                                 </button>
                                 <button width="0.5" height="90" alignment="right" backgroundImage="leaf" catalog="system" id="2XX-Im-NxN">
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch42mm" height="72"/>
                                     <connections>
                                         <action selector="NatureButtonTapped" destination="AgC-eL-Hgc" id="kj5-Ku-GIm"/>
                                     </connections>
