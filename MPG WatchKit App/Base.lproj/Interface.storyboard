@@ -13,14 +13,14 @@
                     <items>
                         <group width="1" alignment="left" id="F3n-Cr-msw">
                             <items>
-                                <button width="0.5" height="1" alignment="left" backgroundImage="person.crop.circle" catalog="system" id="S4M-rV-ZND">
+                                <button width="0.5" height="90" alignment="left" backgroundImage="person.crop.circle" catalog="system" id="S4M-rV-ZND">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <connections>
                                         <action selector="PortraitButtonTapped" destination="AgC-eL-Hgc" id="hso-QQ-FKW"/>
                                     </connections>
                                 </button>
-                                <button width="0.5" height="100" alignment="right" backgroundImage="sun.min.fill" catalog="system" id="b0r-J2-FxH">
+                                <button width="0.5" height="90" alignment="right" backgroundImage="sun.min.fill" catalog="system" id="b0r-J2-FxH">
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <connections>
                                         <action selector="LandscapeButtonTapped" destination="AgC-eL-Hgc" id="4Th-4Q-vwm"/>
@@ -30,13 +30,13 @@
                         </group>
                         <group width="1" alignment="left" id="QeS-dn-5GZ">
                             <items>
-                                <button width="0.5" height="1" alignment="left" backgroundImage="building.2.crop.circle" catalog="system" id="4Be-iA-FHx">
+                                <button width="0.5" height="90" alignment="left" backgroundImage="building.2.crop.circle" catalog="system" id="4Be-iA-FHx">
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <connections>
                                         <action selector="StreetButtonTapped" destination="AgC-eL-Hgc" id="96q-iP-L4X"/>
                                     </connections>
                                 </button>
-                                <button width="0.5" height="100" alignment="right" backgroundImage="leaf" catalog="system" id="2XX-Im-NxN">
+                                <button width="0.5" height="90" alignment="right" backgroundImage="leaf" catalog="system" id="2XX-Im-NxN">
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <connections>
                                         <action selector="NatureButtonTapped" destination="AgC-eL-Hgc" id="kj5-Ku-GIm"/>
@@ -50,7 +50,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="133" y="-639"/>
+            <point key="canvasLocation" x="132.64197530864197" y="-654.11167512690349"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="rvC-Pw-hvt">
