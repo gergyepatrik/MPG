@@ -289,7 +289,7 @@
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
             <objects>
-                <notificationController id="YCC-NB-fut" customClass="NotificationController" customModule="MPG_WatchKit_Extension">
+                <notificationController id="YCC-NB-fut">
                     <items>
                         <label width="136" height="63" alignment="left" text="Hello there!" numberOfLines="4" id="IdU-wH-bcW">
                             <fontDescription key="font" style="UICTFontTextStyleCaption1"/>

@@ -9,6 +9,7 @@ import WatchKit
 import Foundation
 import UserNotifications
 
+
 class NotificationController: WKUserNotificationInterfaceController {
 
     override init() {
@@ -16,6 +17,12 @@ class NotificationController: WKUserNotificationInterfaceController {
         super.init()
         
         // Configure interface objects here.
+  
+        
+    }
+
+    override func willActivate() {
+        // This method is called when watch view controller is about to be visible to user
         
         // Setting the content of the notification
         let content = UNMutableNotificationContent()
@@ -26,10 +33,10 @@ class NotificationController: WKUserNotificationInterfaceController {
         var dateComponents = DateComponents()
         dateComponents.calendar=Calendar.current
         
-        // Setting the day to tuesday, in Swift the week doesn't start on monday
-        dateComponents.weekday = 3
-        // Setting the hour
+      
+        // Setting the hour to 7am
         dateComponents.hour = 14
+        dateComponents.minute = 14
         
         // Create the trigger as a repeating event
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
@@ -45,12 +52,6 @@ class NotificationController: WKUserNotificationInterfaceController {
             print("Something went wrong with the notification!!!!!")
             
         }}
-        
-        
-    }
-
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
     }
 
     override func didDeactivate() {
