@@ -31,19 +31,24 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
     }
     
-    
-    //First screen button taps
-    @IBAction func portraitButtonTapped(){
+    @IBAction func portraitTap() {
         self.pushController(withName: "Portrait", context: nil)
     }
-    @IBAction func landscapeButtonTapped(){
+    
+    @IBAction func landscapeTap() {
         self.pushController(withName: "Landscape", context: nil)
     }
-    @IBAction func streetButtonTapped(){
+    
+    
+    @IBAction func streetTap() {
         self.pushController(withName: "Street", context: nil)
     }
-    @IBAction func natureButtonTapped(){
+    
+    
+    @IBAction func natureTap() {
         self.pushController(withName: "Nature", context: nil)
     }
+    
+
 
 }

@@ -18,14 +18,14 @@
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <variation key="device=watch42mm" height="72"/>
                                     <connections>
-                                        <action selector="PortraitButtonTapped" destination="AgC-eL-Hgc" id="hso-QQ-FKW"/>
+                                        <action selector="portraitTap" destination="AgC-eL-Hgc" id="ZJG-hX-PJq"/>
                                     </connections>
                                 </button>
                                 <button width="0.5" height="90" alignment="right" backgroundImage="sun.min.fill" catalog="system" id="b0r-J2-FxH">
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <variation key="device=watch42mm" height="72"/>
                                     <connections>
-                                        <action selector="LandscapeButtonTapped" destination="AgC-eL-Hgc" id="4Th-4Q-vwm"/>
+                                        <action selector="landscapeTap" destination="AgC-eL-Hgc" id="37g-LU-AXK"/>
                                     </connections>
                                 </button>
                             </items>
@@ -36,14 +36,14 @@
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <variation key="device=watch42mm" height="72"/>
                                     <connections>
-                                        <action selector="StreetButtonTapped" destination="AgC-eL-Hgc" id="96q-iP-L4X"/>
+                                        <action selector="streetTap" destination="AgC-eL-Hgc" id="REu-5M-LDp"/>
                                     </connections>
                                 </button>
                                 <button width="0.5" height="90" alignment="right" backgroundImage="leaf" catalog="system" id="2XX-Im-NxN">
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <variation key="device=watch42mm" height="72"/>
                                     <connections>
-                                        <action selector="NatureButtonTapped" destination="AgC-eL-Hgc" id="kj5-Ku-GIm"/>
+                                        <action selector="natureTap" destination="AgC-eL-Hgc" id="nOD-C5-zAg"/>
                                     </connections>
                                 </button>
                             </items>
@@ -218,14 +218,17 @@
             <objects>
                 <controller identifier="Outdoors" id="1Sy-Ui-q05">
                     <items>
-                        <label height="169" alignment="left" textAlignment="center" numberOfLines="10" id="Ncw-kb-qf6">
+                        <label height="169" alignment="left" textAlignment="center" numberOfLines="15" id="Ncw-kb-qf6">
                             <string key="text">Use your surroundings! Using objects as foreground elements can increase the depth of the image, providing a more professional look.</string>
                         </label>
                         <imageView alignment="left" image="Rick" id="jyN-e4-n0O"/>
+                        <label alignment="left" id="dGf-9i-F4H">
+                            <string key="text">Check the position of the sun! Shooting with direct sunlight can create harsh shadows and overexposed areas on the image! Using the sun as backlight can create interesting effects, although lens flares and lower contrast are important side effects!</string>
+                        </label>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="497" y="-291"/>
+            <point key="canvasLocation" x="496.98765432098764" y="-291.67512690355329"/>
         </scene>
         <!--Indoors-->
         <scene sceneID="EuY-vg-V5y">
