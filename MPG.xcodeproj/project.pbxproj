@@ -32,6 +32,8 @@
 		4D6AA3B327D6401D0079A2AD /* tips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AA3B227D6401D0079A2AD /* tips.txt */; };
 		4D82658527FDB761000E40BD /* SoundPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D82658427FDB761000E40BD /* SoundPlaying.swift */; };
 		4D82658827FDBB28000E40BD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D82658727FDBB28000E40BD /* AVFoundation.framework */; };
+		4D8B1838280C7C40001179C5 /* morningcontent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D8B1837280C7C40001179C5 /* morningcontent.txt */; };
+		4D8B183A280C7D2B001179C5 /* nightcontent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D8B1839280C7D2B001179C5 /* nightcontent.txt */; };
 		4DD668B627FF25E400136A96 /* LandscapeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD668B527FF25E400136A96 /* LandscapeController.swift */; };
 		4DD668B827FF2B1800136A96 /* test.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 4DD668B727FF2B1700136A96 /* test.MOV */; };
 		4DD668BC2801C55D00136A96 /* StreetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD668BB2801C55D00136A96 /* StreetController.swift */; };
@@ -125,6 +127,8 @@
 		4D6AA3B227D6401D0079A2AD /* tips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tips.txt; sourceTree = SOURCE_ROOT; };
 		4D82658427FDB761000E40BD /* SoundPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlaying.swift; sourceTree = "<group>"; };
 		4D82658727FDBB28000E40BD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		4D8B1837280C7C40001179C5 /* morningcontent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = morningcontent.txt; sourceTree = SOURCE_ROOT; };
+		4D8B1839280C7D2B001179C5 /* nightcontent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nightcontent.txt; sourceTree = SOURCE_ROOT; };
 		4DD668B527FF25E400136A96 /* LandscapeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeController.swift; sourceTree = "<group>"; };
 		4DD668B727FF2B1700136A96 /* test.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test.MOV; sourceTree = "<group>"; };
 		4DD668BB2801C55D00136A96 /* StreetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetController.swift; sourceTree = "<group>"; };
@@ -224,6 +228,8 @@
 				4D1C3F5F273D404100D08C7D /* Info.plist */,
 				4D1C3F60273D404100D08C7D /* PushNotificationPayload.apns */,
 				4D6AA3B227D6401D0079A2AD /* tips.txt */,
+				4D8B1837280C7C40001179C5 /* morningcontent.txt */,
+				4D8B1839280C7D2B001179C5 /* nightcontent.txt */,
 			);
 			path = "MPG WatchKit Extension";
 			sourceTree = "<group>";
@@ -425,6 +431,8 @@
 				4D19457D27F36B860066C4F4 /* BabyCrying.mp3 in Resources */,
 				4DD668B827FF2B1800136A96 /* test.MOV in Resources */,
 				4D1C3F5E273D404100D08C7D /* Assets.xcassets in Resources */,
+				4D8B1838280C7C40001179C5 /* morningcontent.txt in Resources */,
+				4D8B183A280C7D2B001179C5 /* nightcontent.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
