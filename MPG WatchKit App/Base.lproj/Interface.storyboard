@@ -110,7 +110,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="434.8641975308642" y="-651.52284263959382"/>
+            <point key="canvasLocation" x="405" y="-749"/>
         </scene>
         <!--Soundboard Controller-->
         <scene sceneID="a4N-qO-hvS">
@@ -222,7 +222,7 @@
                             <string key="text">Use your surroundings! Using objects as foreground elements can increase the depth of the image, providing a more professional look.</string>
                         </label>
                         <imageView alignment="left" image="Rick" id="jyN-e4-n0O"/>
-                        <label alignment="left" id="dGf-9i-F4H">
+                        <label width="1" alignment="left" textAlignment="center" numberOfLines="0" id="dGf-9i-F4H">
                             <string key="text">Check the position of the sun! Shooting with direct sunlight can create harsh shadows and overexposed areas on the image! Using the sun as backlight can create interesting effects, although lens flares and lower contrast are important side effects!</string>
                         </label>
                     </items>
