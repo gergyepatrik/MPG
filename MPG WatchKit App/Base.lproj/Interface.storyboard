@@ -225,6 +225,11 @@
                         <label width="1" alignment="left" textAlignment="center" numberOfLines="0" id="dGf-9i-F4H">
                             <string key="text">Check the position of the sun! Shooting with direct sunlight can create harsh shadows and overexposed areas on the image! Using the sun as backlight can create interesting effects, although lens flares and lower contrast are important side effects!</string>
                         </label>
+                        <imageView alignment="left" image="Krey" id="ouN-O2-UuO"/>
+                        <label alignment="left" textAlignment="center" numberOfLines="0" id="I5m-i3-WMa">
+                            <string key="text">Check for interesting backround for both low and high aperture lenses! If the background is interesting it can look good when it's sharp and also when it's blurred!</string>
+                        </label>
+                        <imageView alignment="left" image="Gachi" id="5uM-7K-i49"/>
                     </items>
                 </controller>
             </objects>
@@ -303,13 +308,23 @@
                     <color key="backgroundColor" red="0.4843840063506159" green="0.066035377451622107" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <connections>
                         <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="ztd-IK-cTQ" kind="relationship" relationship="dynamicNotificationInterface" id="bVM-fd-lqH"/>
                     </connections>
                 </notificationController>
             </objects>
             <point key="canvasLocation" x="132.64197530864197" y="854.74619289340092"/>
         </scene>
+        <!--Notification Controller-->
+        <scene sceneID="YbX-Gp-XTS">
+            <objects>
+                <controller id="ztd-IK-cTQ" customClass="NotificationController" customModule="MPG_WatchKit_Extension"/>
+            </objects>
+            <point key="canvasLocation" x="432.64197530864197" y="854.74619289340092"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Gachi" width="480" height="360"/>
+        <image name="Krey" width="400" height="400"/>
         <image name="Rick" width="1200" height="861"/>
         <image name="building.2.crop.circle" catalog="system" width="128" height="121"/>
         <image name="leaf" catalog="system" width="128" height="108"/>
