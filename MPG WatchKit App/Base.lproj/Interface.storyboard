@@ -61,7 +61,7 @@
             <objects>
                 <controller id="dyR-ap-hDD">
                     <items>
-                        <label width="136" height="166" alignment="center" verticalAlignment="center" text="This page provides useful photography tips and trick after pressing the button below." textAlignment="center" numberOfLines="10" id="fFO-T6-fmA"/>
+                        <label alignment="center" verticalAlignment="center" text="This page provides useful photography tips and trick after pressing the button below." textAlignment="center" numberOfLines="10" id="fFO-T6-fmA"/>
                     </items>
                 </controller>
             </objects>
@@ -72,7 +72,7 @@
             <objects>
                 <controller id="ZCN-eZ-ZuO">
                     <items>
-                        <label width="136" height="157" alignment="center" verticalAlignment="center" text="This page provides different sounds that can catch the attention of the subjects resulting them looking at the camera." textAlignment="center" numberOfLines="14" id="OMk-8R-fFU"/>
+                        <label alignment="center" verticalAlignment="center" text="This page provides different sounds that can catch the attention of the subjects resulting them looking at the camera." textAlignment="center" numberOfLines="0" id="OMk-8R-fFU"/>
                     </items>
                 </controller>
             </objects>
