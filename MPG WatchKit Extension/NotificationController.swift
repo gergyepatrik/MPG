@@ -62,16 +62,12 @@ class NotificationController: WKUserNotificationInterfaceController {
         let morningContentGenerated = randomElement
         return morningContentGenerated
         }
-        
-        
-        
-        
+     
         // Setting the content of morning notifications
         let morningContent = UNMutableNotificationContent()
         morningContent.title = "Daily motivation"
         morningContent.body = getRandom(inputString: "morningcontent")
-        
-        
+           
         // Setting the content of night notifications
         let nightContent = UNMutableNotificationContent()
         nightContent.title = "Time to chill"
@@ -86,12 +82,12 @@ class NotificationController: WKUserNotificationInterfaceController {
         nightDateComponents.calendar=Calendar.current
         
         // Setting the morning hour to 7am
-        morningDateComponents.hour = 18
-        morningDateComponents.minute = 49
+        morningDateComponents.hour = 7
+        morningDateComponents.minute = 00
         
         // Setting the night hour to 6pm
         nightDateComponents.hour = 18
-        nightDateComponents.minute = 50
+        nightDateComponents.minute = 00
         
         // Create the trigger as a repeating event for mornings
         let morningTrigger = UNCalendarNotificationTrigger(dateMatching: morningDateComponents, repeats: true)
