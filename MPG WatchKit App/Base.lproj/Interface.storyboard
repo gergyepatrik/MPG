@@ -65,7 +65,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="512.09876543209873" y="-1044.5939086294416"/>
+            <point key="canvasLocation" x="612" y="-1159"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="Jxt-f8-UNS">
@@ -76,7 +76,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="881.48148148148152" y="-1045.4568527918782"/>
+            <point key="canvasLocation" x="1051" y="-1159"/>
         </scene>
         <!--Generator Controller-->
         <scene sceneID="byW-sn-h9J">
@@ -183,9 +183,69 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <segue destination="1u9-Fz-DzI" kind="relationship" relationship="nextPage" id="LwZ-10-wIX"/>
+                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="781" y="-667"/>
+            <point key="canvasLocation" x="742" y="-764"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="OfF-Qg-LCr">
+            <objects>
+                <controller id="1u9-Fz-DzI">
+                    <items>
+                        <label width="1" alignment="left" text="MyPhotoGuide" textAlignment="center" id="T25-F4-7CE">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <button width="1" alignment="left" backgroundImage="MPG_LOGO" id="wyx-gF-bXu">
+                            <connections>
+                                <segue destination="X3V-9n-j1d" kind="modal" id="fN2-fF-Pkb"/>
+                            </connections>
+                        </button>
+                        <label width="1" alignment="left" textAlignment="center" numberOfLines="0" id="U6a-kp-fTp">
+                            <string key="text" base64-UTF8="YES">
+Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
+</string>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1021.679012345679" y="-763.27411167512685"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="WKa-a7-HcW">
+            <objects>
+                <controller id="X3V-9n-j1d">
+                    <items>
+                        <label width="1" alignment="left" text="Contact info" textAlignment="center" numberOfLines="0" id="wDl-gu-mhf">
+                            <fontDescription key="font" style="UICTFontTextStyleTitle2"/>
+                        </label>
+                        <separator alignment="left" id="MhV-j8-tV9"/>
+                        <label width="1" alignment="left" text="Email✉️" textAlignment="center" id="9oQ-HB-ki5">
+                            <fontDescription key="font" style="UICTFontTextStyleTitle2"/>
+                        </label>
+                        <label width="1" alignment="left" text="haliscsharp@gmail.com" textAlignment="center" id="hC3-lB-8G4">
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <separator alignment="left" id="K3u-4F-Q7V"/>
+                        <label width="1" alignment="left" text="Instagram📷" textAlignment="center" id="FBd-UX-mNd">
+                            <fontDescription key="font" style="UICTFontTextStyleTitle2"/>
+                        </label>
+                        <label width="1" alignment="left" text="@haliscsharp" textAlignment="center" id="mIY-hh-FpD">
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <separator alignment="left" id="LcX-1l-6fz"/>
+                        <label width="1" alignment="left" text="Github🛠" textAlignment="center" id="9gQ-Hb-BTd">
+                            <fontDescription key="font" style="UICTFontTextStyleTitle2"/>
+                        </label>
+                        <label width="1" alignment="left" text="github.com/gergyepatrik" textAlignment="center" id="NO9-FF-rml">
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1300" y="-788"/>
         </scene>
         <!--Portrait-->
         <scene sceneID="MYv-IE-sx2">
@@ -233,21 +293,21 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="496.98765432098764" y="-291.67512690355329"/>
+            <point key="canvasLocation" x="512" y="19"/>
         </scene>
         <!--Indoors-->
         <scene sceneID="EuY-vg-V5y">
             <objects>
                 <controller identifier="Indoors" id="ugY-y9-Zp6"/>
             </objects>
-            <point key="canvasLocation" x="706" y="-341"/>
+            <point key="canvasLocation" x="798" y="-341"/>
         </scene>
         <!--Studio-->
         <scene sceneID="pgy-29-bef">
             <objects>
                 <controller identifier="Studio" id="UB7-CZ-RIs"/>
             </objects>
-            <point key="canvasLocation" x="902" y="-341"/>
+            <point key="canvasLocation" x="1085" y="-341"/>
         </scene>
         <!--Landscape-->
         <scene sceneID="3yz-PI-oRQ">
@@ -325,6 +385,7 @@
     <resources>
         <image name="Gachi" width="480" height="360"/>
         <image name="Krey" width="400" height="400"/>
+        <image name="MPG_LOGO" width="400" height="400"/>
         <image name="Rick" width="1200" height="861"/>
         <image name="building.2.crop.circle" catalog="system" width="128" height="121"/>
         <image name="leaf" catalog="system" width="128" height="108"/>
