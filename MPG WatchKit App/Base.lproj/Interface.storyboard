@@ -346,6 +346,7 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                     <items>
                         <label height="19" alignment="left" text="Nature" id="4qG-t8-mlW"/>
                         <movie width="1" height="100" alignment="left" id="un3-x1-n11"/>
+                        <imageView alignment="left" image="Nature" id="vEi-gc-IkC"/>
                     </items>
                     <connections>
                         <outlet property="moviePlayer" destination="un3-x1-n11" id="WF6-wR-zNB"/>
@@ -386,6 +387,7 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
         <image name="Gachi" width="480" height="360"/>
         <image name="Krey" width="400" height="400"/>
         <image name="MPG_LOGO" width="400" height="400"/>
+        <image name="Nature" width="4032" height="3024"/>
         <image name="Rick" width="1200" height="861"/>
         <image name="building.2.crop.circle" catalog="system" width="128" height="121"/>
         <image name="leaf" catalog="system" width="128" height="108"/>
