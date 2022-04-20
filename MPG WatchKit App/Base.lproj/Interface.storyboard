@@ -61,7 +61,7 @@
             <objects>
                 <controller id="dyR-ap-hDD">
                     <items>
-                        <label alignment="center" verticalAlignment="center" text="This page provides useful photography tips and trick after pressing the button below." textAlignment="center" numberOfLines="10" id="fFO-T6-fmA"/>
+                        <label alignment="center" verticalAlignment="center" text="This page provides useful photography tips and trick after pressing the button below." textAlignment="center" numberOfLines="0" id="fFO-T6-fmA"/>
                     </items>
                 </controller>
             </objects>
