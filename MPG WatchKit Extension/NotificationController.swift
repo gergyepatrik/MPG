@@ -82,8 +82,8 @@ class NotificationController: WKUserNotificationInterfaceController {
         nightDateComponents.calendar=Calendar.current
         
         // Setting the morning hour to 7am
-        morningDateComponents.hour = 7
-        morningDateComponents.minute = 00
+        morningDateComponents.hour = 14
+        morningDateComponents.minute = 50
         
         // Setting the night hour to 6pm
         nightDateComponents.hour = 18

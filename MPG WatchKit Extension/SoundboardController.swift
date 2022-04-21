@@ -67,4 +67,9 @@ class SoundboardController: WKInterfaceController, SoundPlaying {
        playSound(named: "China")
     }
     
+    
+    @IBAction func playSoundDuck() {
+        playSound(named: "China")
+    }
+    
 }
