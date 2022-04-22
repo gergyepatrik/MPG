@@ -285,15 +285,15 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                         <label alignment="left" textAlignment="center" numberOfLines="0" id="Ncw-kb-qf6">
                             <string key="text">Use your surroundings! Using objects as foreground elements can increase the depth of the image, providing a more professional look.</string>
                         </label>
-                        <imageView alignment="left" image="Rick" id="jyN-e4-n0O"/>
+                        <imageView alignment="left" image="MPG_LOGO" id="jyN-e4-n0O"/>
                         <label width="1" alignment="left" textAlignment="center" numberOfLines="0" id="dGf-9i-F4H">
                             <string key="text">Check the position of the sun! Shooting with direct sunlight can create harsh shadows and overexposed areas on the image! Using the sun as backlight can create interesting effects, although lens flares and lower contrast are important side effects!</string>
                         </label>
-                        <imageView alignment="left" image="Krey" id="ouN-O2-UuO"/>
+                        <imageView alignment="left" image="MPG_LOGO" id="ouN-O2-UuO"/>
                         <label alignment="left" textAlignment="center" numberOfLines="0" id="I5m-i3-WMa">
                             <string key="text">Check for interesting backround for both low and high aperture lenses! If the background is interesting it can look good when it's sharp and also when it's blurred!</string>
                         </label>
-                        <imageView alignment="left" image="Gachi" id="5uM-7K-i49"/>
+                        <imageView alignment="left" image="MPG_LOGO" id="5uM-7K-i49"/>
                     </items>
                 </controller>
             </objects>
@@ -302,16 +302,30 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
         <!--Indoors-->
         <scene sceneID="EuY-vg-V5y">
             <objects>
-                <controller identifier="Indoors" id="ugY-y9-Zp6"/>
+                <controller identifier="Indoors" id="ugY-y9-Zp6">
+                    <items>
+                        <label alignment="left" textAlignment="center" numberOfLines="0" id="H4o-Ff-a4r">
+                            <string key="text">When doing indoors photography with a camera it is very important to keep some things in mind. Adjusting the shutter speed according to the sometimes "flickering" lights is crucial for making good quality images. In Europe the optimal shutter speed is 1/50 seconds.</string>
+                        </label>
+                        <imageView alignment="left" image="MPG_LOGO" id="zdm-fo-oda"/>
+                        <label alignment="left" textAlignment="center" numberOfLines="0" id="u1g-VB-qv5">
+                            <string key="text">Also because of the constantly changing light situation according to where we stand with the camera, the white-balance is very important. It is beneficial to use manual white-balance for every situation, the automatic white-balance on most cameras can introduce inconsistent color rendition.</string>
+                        </label>
+                        <imageView alignment="left" image="MPG_LOGO" id="1Oa-wX-wjN"/>
+                        <label alignment="left" textAlignment="center" numberOfLines="0" id="tYN-b3-wkp">
+                            <string key="text">If you can use lenses with wider apertures you can avoid getting noisy images. The wider aperture lets in more light, so you can keep the ISO value lower. The lowest possible ISO value on the cameras usually results the most sharpness and dynamic range.</string>
+                        </label>
+                    </items>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="798" y="-341"/>
+            <point key="canvasLocation" x="741" y="63"/>
         </scene>
         <!--Studio-->
         <scene sceneID="pgy-29-bef">
             <objects>
                 <controller identifier="Studio" id="UB7-CZ-RIs"/>
             </objects>
-            <point key="canvasLocation" x="1085" y="-341"/>
+            <point key="canvasLocation" x="979" y="-380"/>
         </scene>
         <!--Landscape-->
         <scene sceneID="3yz-PI-oRQ">
@@ -377,22 +391,24 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="132.64197530864197" y="854.74619289340092"/>
+            <point key="canvasLocation" x="105" y="1039"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="YbX-Gp-XTS">
             <objects>
-                <controller id="ztd-IK-cTQ" customClass="NotificationController" customModule="MPG_WatchKit_Extension"/>
+                <controller id="ztd-IK-cTQ" customClass="NotificationController" customModule="MPG_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Greetings photographer!" numberOfLines="0" id="97h-Op-lyV"/>
+                    </items>
+                    <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="432.64197530864197" y="854.74619289340092"/>
+            <point key="canvasLocation" x="405" y="1023"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Gachi" width="480" height="360"/>
-        <image name="Krey" width="400" height="400"/>
         <image name="MPG_LOGO" width="400" height="400"/>
         <image name="Nature" width="4032" height="3024"/>
-        <image name="Rick" width="1200" height="861"/>
         <image name="building.2.crop.circle" catalog="system" width="128" height="121"/>
         <image name="leaf" catalog="system" width="128" height="108"/>
         <image name="person.crop.circle" catalog="system" width="128" height="121"/>
