@@ -275,7 +275,7 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="133.4814814814815" y="-259.74619289340097"/>
+            <point key="canvasLocation" x="133" y="-380"/>
         </scene>
         <!--Outdoors-->
         <scene sceneID="Xy8-y4-W7Y">
@@ -315,17 +315,32 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                         <label alignment="left" textAlignment="center" numberOfLines="0" id="tYN-b3-wkp">
                             <string key="text">If you can use lenses with wider apertures you can avoid getting noisy images. The wider aperture lets in more light, so you can keep the ISO value lower. The lowest possible ISO value on the cameras usually results the most sharpness and dynamic range.</string>
                         </label>
+                        <imageView alignment="left" image="MPG_LOGO" id="w6S-sO-tps"/>
+                        <label alignment="left" textAlignment="center" numberOfLines="0" id="DgH-Of-zLQ">
+                            <string key="text">It is recommended to use one or more flash units with light modifiers to get sharper, more detailed images. Pointing the flash to the ceiling can spread the light well acheiving a more natural, less harsh look.</string>
+                        </label>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="741" y="63"/>
+            <point key="canvasLocation" x="741" y="235"/>
         </scene>
         <!--Studio-->
         <scene sceneID="pgy-29-bef">
             <objects>
-                <controller identifier="Studio" id="UB7-CZ-RIs"/>
+                <controller identifier="Studio" id="UB7-CZ-RIs">
+                    <items>
+                        <label alignment="left" textAlignment="center" numberOfLines="0" id="XZw-8G-tcc">
+                            <string key="text">When doing studio photography the camera settings are very important. Setting the lens to a tighter aperture provides a sharper look because more of the subject gets into focus. Less depth of field means we can see more details both on the subject and the background. The recommended aperture is between  f/8 and f/16 with a shutter speed of 1/125 seconds and the lowest possible ISO.</string>
+                        </label>
+                        <imageView alignment="left" image="MPG_LOGO" id="jql-Db-T8h"/>
+                        <label alignment="left" textAlignment="center" numberOfLines="0" id="XIc-ou-Xg7">
+                            <string key="text">Play around with multiple lights from different angles to see how the shadows appear and disappear. Using different light modifiers can provide very distint looks.</string>
+                        </label>
+                        <imageView alignment="left" id="JEa-8h-fos"/>
+                    </items>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="979" y="-380"/>
+            <point key="canvasLocation" x="949" y="-106"/>
         </scene>
         <!--Landscape-->
         <scene sceneID="3yz-PI-oRQ">
@@ -340,7 +355,7 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="133" y="11"/>
+            <point key="canvasLocation" x="-249" y="-80"/>
         </scene>
         <!--Street-->
         <scene sceneID="CTV-PI-Jvq">
@@ -355,7 +370,7 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="134" y="281"/>
+            <point key="canvasLocation" x="-45" y="-81"/>
         </scene>
         <!--Nature-->
         <scene sceneID="PEQ-x7-xMv">
@@ -371,7 +386,7 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="133" y="548"/>
+            <point key="canvasLocation" x="155" y="-47"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -391,7 +406,7 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="105" y="1039"/>
+            <point key="canvasLocation" x="511" y="1196"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="YbX-Gp-XTS">
@@ -403,7 +418,7 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="405" y="1023"/>
+            <point key="canvasLocation" x="949" y="1181"/>
         </scene>
     </scenes>
     <resources>
