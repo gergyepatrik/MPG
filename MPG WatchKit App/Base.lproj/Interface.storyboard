@@ -97,7 +97,7 @@
                             </items>
                         </group>
                         <separator alignment="left" id="NAK-MT-IeF"/>
-                        <label alignment="center" text="Press the button at the bottom of the page to generate a new tip!" numberOfLines="15" minimumScaleFactor="0.40000000000000002" id="xIP-37-9Mn"/>
+                        <label alignment="center" text="Press the button at the bottom of the page to generate a new tip!" numberOfLines="0" minimumScaleFactor="0.40000000000000002" id="xIP-37-9Mn"/>
                         <button width="1" alignment="left" verticalAlignment="bottom" title="Give me a tip" id="acJ-pP-nTz">
                             <connections>
                                 <action selector="generateButtonPressed" destination="MSt-23-mlR" id="xkN-K6-m6D"/>

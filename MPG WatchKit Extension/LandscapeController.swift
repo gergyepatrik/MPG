@@ -19,7 +19,7 @@ class LandscapeController: WKInterfaceController {
         // Configure interface objects here.
         
         // Setting an image that shows when the movie is not playing
-        let image = WKImage(imageName: "Gachi")
+        let image = WKImage(imageName: "MPG_LOGO")
         moviePlayer.setPosterImage(image)
         
         // Accessing the bundle at the location of the controller itself
