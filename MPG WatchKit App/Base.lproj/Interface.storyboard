@@ -336,6 +336,7 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                         <label alignment="left" textAlignment="center" numberOfLines="0" id="XIc-ou-Xg7">
                             <string key="text">Play around with multiple lights from different angles to see how the shadows appear and disappear. Using different light modifiers can provide very distint looks.</string>
                         </label>
+                        <imageView alignment="left" image="MPG_LOGO" id="apW-bi-7ia"/>
                         <imageView alignment="left" id="JEa-8h-fos"/>
                     </items>
                 </controller>
