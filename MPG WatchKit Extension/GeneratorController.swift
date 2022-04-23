@@ -26,7 +26,7 @@ class GeneratorController: WKInterfaceController {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
         // Printing to console to make sure the transition works
-        print("Activatior successful")
+        print("Page movement successful")
         
     }
 
