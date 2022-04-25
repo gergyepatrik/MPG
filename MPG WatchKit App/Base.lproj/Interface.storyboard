@@ -16,14 +16,24 @@
                                 <button width="0.5" height="90" alignment="left" backgroundImage="person.crop.circle" catalog="system" id="S4M-rV-ZND">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch38mm" height="68"/>
+                                    <variation key="device=watch40mm" height="70"/>
+                                    <variation key="device=watch41mm" height="73"/>
                                     <variation key="device=watch42mm" height="72"/>
+                                    <variation key="device=watch44mm" height="89"/>
+                                    <variation key="device=watch45mm" height="90"/>
                                     <connections>
                                         <action selector="portraitTap" destination="AgC-eL-Hgc" id="ZJG-hX-PJq"/>
                                     </connections>
                                 </button>
                                 <button width="0.5" height="90" alignment="right" backgroundImage="sun.min.fill" catalog="system" id="b0r-J2-FxH">
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch38mm" height="68"/>
+                                    <variation key="device=watch40mm" height="70"/>
+                                    <variation key="device=watch41mm" height="73"/>
                                     <variation key="device=watch42mm" height="72"/>
+                                    <variation key="device=watch44mm" height="89"/>
+                                    <variation key="device=watch45mm" height="90"/>
                                     <connections>
                                         <action selector="landscapeTap" destination="AgC-eL-Hgc" id="37g-LU-AXK"/>
                                     </connections>
@@ -34,14 +44,24 @@
                             <items>
                                 <button width="0.5" height="90" alignment="left" backgroundImage="building.2.crop.circle" catalog="system" id="4Be-iA-FHx">
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch38mm" height="68"/>
+                                    <variation key="device=watch40mm" height="70"/>
+                                    <variation key="device=watch41mm" height="73"/>
                                     <variation key="device=watch42mm" height="72"/>
+                                    <variation key="device=watch44mm" height="89"/>
+                                    <variation key="device=watch45mm" height="90"/>
                                     <connections>
                                         <action selector="streetTap" destination="AgC-eL-Hgc" id="REu-5M-LDp"/>
                                     </connections>
                                 </button>
                                 <button width="0.5" height="90" alignment="right" backgroundImage="leaf" catalog="system" id="2XX-Im-NxN">
                                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch38mm" height="68"/>
+                                    <variation key="device=watch40mm" height="70"/>
+                                    <variation key="device=watch41mm" height="73"/>
                                     <variation key="device=watch42mm" height="72"/>
+                                    <variation key="device=watch44mm" height="89"/>
+                                    <variation key="device=watch45mm" height="90"/>
                                     <connections>
                                         <action selector="natureTap" destination="AgC-eL-Hgc" id="nOD-C5-zAg"/>
                                     </connections>
@@ -229,21 +249,21 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                         <label width="1" alignment="left" text="Email✉️" textAlignment="center" id="9oQ-HB-ki5">
                             <fontDescription key="font" style="UICTFontTextStyleTitle2"/>
                         </label>
-                        <label width="1" alignment="left" text="haliscsharp@gmail.com" textAlignment="center" id="hC3-lB-8G4">
+                        <label width="1" alignment="left" text="haliscsharp@gmail.com" textAlignment="center" numberOfLines="0" id="hC3-lB-8G4">
                             <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                         </label>
                         <separator alignment="left" id="K3u-4F-Q7V"/>
                         <label width="1" alignment="left" text="Instagram📷" textAlignment="center" id="FBd-UX-mNd">
                             <fontDescription key="font" style="UICTFontTextStyleTitle2"/>
                         </label>
-                        <label width="1" alignment="left" text="@haliscsharp" textAlignment="center" id="mIY-hh-FpD">
+                        <label width="1" alignment="left" text="@haliscsharp" textAlignment="center" numberOfLines="0" id="mIY-hh-FpD">
                             <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                         </label>
                         <separator alignment="left" id="LcX-1l-6fz"/>
                         <label width="1" alignment="left" text="Github🛠" textAlignment="center" id="9gQ-Hb-BTd">
                             <fontDescription key="font" style="UICTFontTextStyleTitle2"/>
                         </label>
-                        <label width="1" alignment="left" text="github.com/gergyepatrik" textAlignment="center" id="NO9-FF-rml">
+                        <label width="1" alignment="left" text="github.com/gergyepatrik" textAlignment="center" numberOfLines="0" id="NO9-FF-rml">
                             <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                         </label>
                     </items>
@@ -407,7 +427,7 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="511" y="1196"/>
+            <point key="canvasLocation" x="-127" y="-1143"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="YbX-Gp-XTS">
@@ -419,7 +439,7 @@ Q29weXJpZ2h0A8KpMjAyMiwgR2VyZ3llIFBhdHJpayBMw6FzemzDsyBWZXJzaW9uIFYwLjcuMQ
                     <color key="backgroundColor" red="0.48438400640000001" green="0.066035377450000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="949" y="1181"/>
+            <point key="canvasLocation" x="188" y="-1159"/>
         </scene>
     </scenes>
     <resources>
