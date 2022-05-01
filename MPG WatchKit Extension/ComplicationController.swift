@@ -52,8 +52,72 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
 
     // MARK: - Sample Templates
     
+    
     func getLocalizableSampleTemplate(for complication: CLKComplication, withHandler handler: @escaping (CLKComplicationTemplate?) -> Void) {
+       
         // This method will be called once per supported complication, and the results will be cached
-        handler(nil)
+        
+        /*
+        let line1 = CLKSimpleTextProvider(text: "Run MPG App")
+        let line2 = CLKSimpleTextProvider(text: "Tap to open")
+        
+        
+        switch complication.family{
+            
+        case .circularSmall:
+            let circularSmall = CLKComplicationTemplateCircularSmallStackText(line1TextProvider: line1, line2TextProvider: line2)
+            handler(circularSmall)
+            
+        case .extraLarge:
+            let extraLarge = CLKComplicationTemplateExtraLargeSimpleText(textProvider: line1)
+            handler(extraLarge)
+            
+        case .graphicBezel:
+            let graphicBezel = CLKComplicationTemplateGraphicBezelCircularText(circularTemplate: CLKComplicationTemplateGraphicCircularStackText(line1TextProvider: line1, line2TextProvider: line1), textProvider: line1)
+            handler(graphicBezel)
+            
+        case .modularSmall:
+            let modularSmall = CLKComplicationTemplateModularSmallStackText(line1TextProvider: line1, line2TextProvider: line2)
+            handler(modularSmall)
+            
+        case .modularLarge:
+            let modularLarge = CLKComplicationTemplateModularLargeStandardBody(headerTextProvider: line1, body1TextProvider: line2)
+            handler(modularLarge)
+            
+        case .utilitarianSmall:
+            let utilitiarianSmall = CLKComplicationTemplateUtilitarianSmallRingText(textProvider: line1, fillFraction: 1.5, ringStyle: CLKComplicationRingStyle.closed)
+            handler(utilitiarianSmall)
+            
+        case .utilitarianSmallFlat:
+            let utilitarianSmallFlat = CLKComplicationTemplateUtilitarianSmallFlat(textProvider: line1)
+            handler(utilitarianSmallFlat)
+            
+        case .utilitarianLarge:
+            print("Complication type not supported")
+            
+        case .graphicCorner:
+            let graphicCorner = CLKComplicationTemplateGraphicCornerStackText(innerTextProvider: line1, outerTextProvider: line2)
+            handler(graphicCorner)
+            
+        case .graphicCircular:
+            let graphicCircular = CLKComplicationTemplateGraphicCircularStackText(line1TextProvider: line1, line2TextProvider: line2)
+            handler(graphicCircular)
+            
+        case .graphicRectangular:
+            let graphicRectangular = CLKComplicationTemplateGraphicRectangularStandardBody(headerTextProvider: line1, body1TextProvider: line2)
+            handler(graphicRectangular)
+            
+        case .graphicExtraLarge:
+            let graphicExtraLarge = CLKComplicationTemplateGraphicExtraLargeCircularStackText(line1TextProvider: line1, line2TextProvider: line2)
+            handler(graphicExtraLarge)
+            
+        @unknown default:
+            print("Error when loading complication")
+        }
+         */
+      
     }
+     
+    
+   
 }
